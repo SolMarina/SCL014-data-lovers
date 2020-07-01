@@ -1,0 +1,99 @@
+body {
+    background: url(https://media.altchar.com/prod/images/940_530/gm-0a213278-1010-483a-8497-4503bade197c-senna-ga-loma.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+
+.header {
+    padding: 20px 50px 50px 50px;
+    background-color:rgb(6, 30, 41);
+
+      }
+
+ .title1{
+display: inline-block;
+flex-direction: column;
+text-align: center;
+}
+h1{
+    font-family: lolFont;
+    color:rgb(227, 186, 61);
+}
+
+@font-face {
+    font-family: lolFont;
+    src:url("img/Friz Quadrata Regular.ttf");
+  }
+  	
+        * {
+            margin:0px;
+            padding:0px;}
+        
+        #navbar {
+            margin:center;
+            width:100%;
+            font-family:lolFont;
+            background-color:rgb(6, 30, 41) ;
+        }
+        
+        ul, ol {
+            list-style:none;
+        }
+        
+        .nav > li {
+            float: left;
+        }
+        
+        .nav li a {
+            background-color:rgb(6, 30, 41) ;
+            color:rgb(129, 229, 252);
+            text-decoration:none;
+            padding:10px 12px;
+            display:block;
+        }
+        
+        .nav li a:hover {
+            background-color:rgb(6, 30, 41);
+        }
+        
+        .nav li ul {
+            display:none;
+            position:absolute;
+            min-width:140px;
+        }
+        
+        .nav li:hover > ul {
+            display:block;
+        }
+        
+        .nav li ul li {
+            position:relative;
+        }
+        
+        .nav li ul li ul {
+            right:-140px;
+            top:0px;
+        }
+
+        .tarjeta{
+            background-color: oldlace;
+            width:100px;
+            height: 100px;
+            margin:10px;
+            padding: 0px;
+            border:3px solid rgb(227, 186, 61);
+            display: inline-block;
+          
+          }
+          .padre{
+            background-color: navy;
+            margin:100px;
+            width:70%;
+            height: auto;
+            text-align: center;
+          }
+          .tarjeta img{width:100%;
+                    height:100%}
