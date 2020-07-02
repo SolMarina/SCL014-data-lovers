@@ -1,26 +1,29 @@
 body {
-    background: url(https://media.altchar.com/prod/images/940_530/gm-0a213278-1010-483a-8497-4503bade197c-senna-ga-loma.jpg);
+    background: url(img/artur-sadlos-doublelift-unstoppable-league-of-legends-002.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
 
-
-
 .header {
-    padding: 20px 50px 50px 50px;
     background-color:rgb(6, 30, 41);
-
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
       }
 
- .title1{
-display: inline-block;
-flex-direction: column;
-text-align: center;
+.logo{
+    position: center;
+    padding: 5px 5px 5px 5px;
+    width: 7%; height: 55%
 }
+
 h1{
     font-family: lolFont;
-    color:rgb(227, 186, 61);
+    color:rgb(227, 186, 61); 
+    font-size: 250%;  
 }
 
 @font-face {
@@ -28,17 +31,18 @@ h1{
     src:url("img/Friz Quadrata Regular.ttf");
   }
   	
-        * {
-            margin:0px;
-            padding:0px;}
+* {
+    margin:0px;
+    padding:0px;}
         
-        #navbar {
-            margin:center;
-            width:100%;
-            font-family:lolFont;
-            background-color:rgb(6, 30, 41) ;
-        }
-        
+#navbar {
+        margin:center;
+        display: flex;
+        width:100%;
+        font-family:lolFont;
+        background-color:#061e1e ;
+    }
+
         ul, ol {
             list-style:none;
         }
@@ -46,17 +50,23 @@ h1{
         .nav > li {
             float: left;
         }
+        .nav > input {
+            margin: 5px;
+            padding:3px 12px;
+            font-family:lolFont;
+            float: left;
+        }
         
         .nav li a {
-            background-color:rgb(6, 30, 41) ;
-            color:rgb(129, 229, 252);
+            background-color:#061e1e ;
+            color:rgb(227, 186, 61);
             text-decoration:none;
             padding:10px 12px;
             display:block;
         }
         
         .nav li a:hover {
-            background-color:rgb(6, 30, 41);
+            background-color:rgb(0, 14, 14);
         }
         
         .nav li ul {
