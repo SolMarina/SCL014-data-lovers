@@ -1,16 +1,10 @@
 import datos from './data.js';
-// import data from './data/atletas/atletas.js';
-// import data from './data/lol/lol.js';
-//import data from './data/pokemon/pokemon.js';
 
-/*const validatebuton = document.getElementById('btn');
-validatebuton.addEventListener('click', allChamps);*/
 
 const zToa = document.getElementById("za");
 zToa.addEventListener("click", ordenardeza);
 function ordenardeza() {
 console.log("yadaAAA");
-
 }
 	
 
@@ -43,8 +37,6 @@ lista.forEach(element => {
   <h5>Akali</h5>
 </div>*/  
     
-   
-//document.getElementById("dashboard").innerHTML = ();
 
 }
 
