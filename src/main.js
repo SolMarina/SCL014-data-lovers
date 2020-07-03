@@ -6,7 +6,15 @@ import datos from './data.js';
 /*const validatebuton = document.getElementById('btn');
 validatebuton.addEventListener('click', allChamps);*/
 
-const dashboard = document.getElementById('dashboard');
+const zToa = document.getElementById("za");
+zToa.addEventListener("click", ordenardeza);
+function ordenardeza() {
+console.log("yadaAAA");
+
+}
+	
+
+const dashboard = document.getElementById("dashboard");
 
 window.onload = function allChamps(){
 var lista = datos.allCards();
