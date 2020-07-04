@@ -1,24 +1,28 @@
 import lol from "./data/lol/lol.js";
-const dataLol = (lol.data)
+
+const dataLol = lol.data
 
 const datos = {
-
     allCards: () => {
-        console.log("entro en all cards");
-        const championname= [];
-        console.log(championname);
-        console.log("estos son los datos ");
-        console.log(dataLol);
-        for (let champ in dataLol) { 
-            var card = {
+        const championname = [];
+        for (let champ in dataLol) {
+            let card = {
                 name: dataLol[champ].name,
-                image:dataLol[champ].img
+                image: dataLol[champ].img
             }
             championname.push(card);
         }
-        console.log(championname);
-    return championname;
-    }
+        
+        return championname;
+    },
+
+    az: (a, b) => {
+        return ((a.name < b.name) ? -1 : ((a.name > b.name) ? 1 : 0));
+    },
+
+    za: (a, b) => {
+        return ((b.name < a.name) ? -1 : ((b.name > a.name) ? 1 : 0));
+    },
 
 }
 
