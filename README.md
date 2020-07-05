@@ -6,25 +6,24 @@
 * [B. Organizacion](#B-organizacion)
 * [C. Diseño de la Interfaz de Usuario](#C-diseño-de-la-interfaz-de-usuario)
 * [D. Historia de Usuarios](#D-historia-de-usuarios)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [9. Checklist](#9-checklist)
+
 
 ***
 ## A. Resumen del proyecto
 
-Para este proyecto se contruye una pagina WEB, que podran usar los Jugadores y 
-usuarios de  **League of legends** que lo usan de manera regular, son apacionados 
-de este juego de estrategia que se juega en línea en todo el mundo y que es
-multijugador. En todos los modos de juego, los jugadores controlan personajes 
-llamados **campeones**, que son elegidos o asignados por sus habilidades únicas 
-y se mantiene con este durante toda la partida. 
+Para este proyecto se contruyo una pagina WEB, que podran accesar los Jugadores y 
+usuarios de  **League of legends** que lo usan de manera regular, son apasionados 
+por los juego de estrategia como este que se juega en línea, es multijugador y los j
+ugadores pueden ser de fiferentes paises. 
 
-Mosstraremos a todos los campeones en uan pantalla inicial y los juegadores y/o 
-usuarios podran seleecionar alguno segun ciertos criterios que fueron dados por l
-as Historias de usuarios que nos permitiran desarrollar un producto que mejora 
-la experiencia del ususarios que ayude a interactuar y entender mejor el juego
- y sus campeones.
+En todos los modos de juego, los jugadores controlan personajes llamados **campeones**, 
+que son elegidos o asignados por sus habilidades únicas y se mantiene con este durante 
+toda la partida. 
+
+Mostraremos a todos los campeones en una pantalla inicial y los jugadores y/o 
+usuarios podran seleccionar alguno segun ciertos criterios que fueron dados por 
+las Historias de usuarios que nos permitiran desarrollar un producto que mejore
+su experiencia y les ayude a interactuar y entender mejor el juego y sus campeones.
 
 ### B. Organizacion
 
@@ -33,25 +32,29 @@ Los pring seran trabajados en periodos de 1 semana, pudiendse prolongar si fuera
 Los Dailys permiten planificar los objetivos o tareas del trello para ese dia y al finalizar 
 la jornada se verifica si las mismas fueron alcanzadas en un 100% o no. Permitinedo entonces 
 tener un punto de partida en el siguiente daily.
+
+### Recolectando la informacion
+
 Se elaboro un formulario para poder hacer el testeo incial del proyecto debido a las condiciones 
 actuales donde predomina la comunicacion en modo Remoto. En equipo se analizo la data arrojada, 
 elaborando los prototipos de baja fidelidad a mano alzada y con Balsamiq para mostrar a los 
 usuarios y recibir el primer feedback para crear con base las **Historias de Usuario**
-### Primeros pasos
 
-Antes de empezar a escribir código, debes definir qué deberá hacer el producto
-en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te
-pueden ayudar:
+Resumiendo la data obtenida
+* ¿Quiénes son los principales usuarios de productogt
+Nuestros Usuarios son jugadores entre 18 y 40 años, que usan el juego de manera periodica y buscan 
+subir de niveles en cada encuentro, les motiva mucho las competencia internacional o juegos de la liga
+y quieren estar actualizados constamentede las mejoras de sus campeones favoritos
 
-* ¿Quiénes son los principales usuarios de producto?
-* ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
+* ¿Cuáles son los objetivos de nuestros estos usuarios para  con el producto?
+Mantenerse actualizados con respecto a las mejoras de sus campeones y los enventos internacionales
+
 * ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
-* ¿Cuándo utilizan o utilizarían el producto?
-* Toda tu investigación previa debe tener como resultado todas las Historias
-  de Usuario de tu proyecto.
-* No hagas los prototipos de alta fidelidad de todas tus Historias. Comienza
-  solamente por los que se necesiten para tu Sprint 1 (semana 1 de trabajo). Más
-  pistas en la guía de organización para el proyecto.
+Los ususarios indicaron que les gustaria ver una vista de todos los juegadores en la pantalla, asi como
+la posibilidad de visualizar de manera independiente a su jugador favorito y lese le muestre los datos 
+mas relevants del mismo como: su nombre oficial, rol, dificultad, reseña del personaje entre otros
+Con respeto a la grafica, pidieron que fuera lo mas similar a los del juego en si, donde predominan los 
+tonos oscuros de azul, morado y negro
 
 
 ### C. Diseño de la Interfaz de Usuario
