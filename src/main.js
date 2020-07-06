@@ -44,8 +44,10 @@ function fillDashboard(desiredList) {
       div.appendChild(img);
       div.appendChild(photoname);
       dashboard.appendChild(div);
+
    })
 }
+
 
 window.onload = function allChamps() {
 
