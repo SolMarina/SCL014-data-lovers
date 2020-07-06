@@ -5,22 +5,40 @@ let finalList = [];
 
 const aToz = document.getElementById("az");
 const zToa = document.getElementById("za");
+const tankfilter = document.getElementById("tank");
+const hardfilter = document.getElementById("hard")
 const dashboard = document.getElementById("dashboard");
 
 aToz.addEventListener("click", ordenardeaz);
 function ordenardeaz() {
-   console.log(initialList);
-   initialList.sort(datos.az);
-   finalList = initialList;
+   finalList = initialList.sort(datos.az);
    fillDashboard(finalList);
 }
 
 zToa.addEventListener("click", ordenardeza);
 function ordenardeza() {
-   initialList.sort(datos.za)
-   finalList = initialList;
+   finalList = initialList.sort(datos.za)
    fillDashboard(finalList);
 }
+
+tankfilter.addEventListener("click", rolefiltertank);
+function rolefiltertank(){
+   finalList = initialList.filter(champ => champ.tags.includes("Tank") );
+   fillDashboard(finalList);
+}
+hardfilter.addEventListener("click", dificultfilterHard);
+function dificultfilterHard(){
+   finalList = initialList.filter(champ => champ.difficulty >= 7 );
+   console.log(finalList); 
+   fillDashboard(finalList);
+}
+
+
+
+
+
+
+
 
 function clearDashboard() {
    while (dashboard.firstChild) {
