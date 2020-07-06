@@ -21,13 +21,13 @@ que son elegidos o asignados por sus habilidades únicas y se mantiene con este 
 toda la partida. 
 
 Mostraremos a todos los campeones en una pantalla inicial y los jugadores y/o 
-usuarios podran seleccionar alguno segun ciertos criterios que fueron dados por 
+usuarios podran seleccionar alguno segun ciertos criterios que fueron dados 
 las Historias de usuarios que nos permitiran desarrollar un producto que mejore
 su experiencia y les ayude a interactuar y entender mejor el juego y sus campeones.
 
 ### B. Organizacion
 
-Se trabajo bajo la metodologia agil Scrum y se usara un tablero para definir los pring a trabajar
+Se trabajo bajo la metodologia agil Scrum y se usara un tablero para definir los spring
 Los pring seran trabajados en periodos de 1 semana, pudiendse prolongar si fuera necesario
 Los Dailys permiten planificar los objetivos o tareas del trello para ese dia y al finalizar 
 la jornada se verifica si las mismas fueron alcanzadas en un 100% o no. Permitinedo entonces 
