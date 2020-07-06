@@ -48,6 +48,7 @@ function fillDashboard(desiredList) {
    })
 }
 
+
 window.onload = function allChamps() {
 
    initialList.forEach(element => {
