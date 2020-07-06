@@ -28,7 +28,7 @@ su experiencia y les ayude a interactuar y entender mejor el juego y sus campeon
 ### B. Organizacion
 
 Se trabajo bajo la metodologia agil Scrum y se usara un tablero para definir los spring
-Los pring seran trabajados en periodos de 1 semana, pudiendse prolongar si fuera necesario
+Los spring seran trabajados en periodos de 1 semana, pudiendose prolongar si fuera necesario
 Los Dailys permiten planificar los objetivos o tareas del trello para ese dia y al finalizar 
 la jornada se verifica si las mismas fueron alcanzadas en un 100% o no. Permitinedo entonces 
 tener un punto de partida en el siguiente daily.
