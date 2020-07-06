@@ -9,6 +9,7 @@ const dashboard = document.getElementById("dashboard");
 
 aToz.addEventListener("click", ordenardeaz);
 function ordenardeaz() {
+   console.log(initialList);
    initialList.sort(datos.az);
    finalList = initialList;
    fillDashboard(finalList);
