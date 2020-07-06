@@ -6,7 +6,9 @@ let finalList = [];
 const aToz = document.getElementById("az");
 const zToa = document.getElementById("za");
 const tankfilter = document.getElementById("tank");
-const hardfilter = document.getElementById("hard")
+const hardfilter = document.getElementById("hard");
+const averagefilter = document.getElementById("average");
+const easyfilter = document.getElementById("easy");
 const dashboard = document.getElementById("dashboard");
 
 aToz.addEventListener("click", ordenardeaz);
@@ -39,7 +41,7 @@ function dificultfilterHard() {
 averagefilter.addEventListener("click", dificultfilterAverage);
 
 function dificultfilterAverage() {
-    finalList = initialList.filter(champ => champ.difficulty => 4 && champ.difficulty <= 6);
+    finalList = initialList.filter(champ => champ.difficulty >= 4 && champ.difficulty <= 6);
     console.log(finalList);
     fillDashboard(finalList);
 }
