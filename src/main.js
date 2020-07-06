@@ -1,4 +1,4 @@
-import datos from './data.js';
+gitimport datos from './data.js';
 
 
 const zToa = document.getElementById("za");
