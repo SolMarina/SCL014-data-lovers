@@ -1,7 +1,7 @@
 import datos from './data.js';
 
 let initialList = datos.allCards();
-let finalList = [];
+
 
 //Elementos de la pagina con los que interactuo orden buscador
 const buscardor = document.getElementById("buscador")
@@ -31,39 +31,19 @@ const alldificult = document.getElementById("all");
 const dashboard = document.getElementById("dashboard");
 
 function joinedFilter() {
-    let stringName = buscardor.value;
+    
     let alfabeticvalue = orderlabel.innerHTML;
     let rolevalue = roleOrder.innerHTML;
     let dificultvalue = dificultlabel.innerHTML;
-    console.log(stringName);
-    console.log(alfabeticvalue);
-    console.log(rolevalue);
-    console.log(dificultvalue);
 
     let alfabeticlist = [];
-    if (alfabeticvalue == "Ordenar: A-Z") {
-        alfabeticlist = initialList.sort(datos.az);
-    }
-    else {
-        alfabeticlist = initialList.sort(datos.za);
-    }
-    let rolelist = [];
-    if (rolevalue == "Todos los Roles") {
-        rolelist = alfabeticlist;
-    } else {
-        rolelist = alfabeticlist.filter(champ => champ.tags.includes(rolevalue));
-    }
-    let dificultList = [];
-    if (dificultvalue == "Todas las Dificultades") {
-        dificultList = rolelist;
-    } else if (dificultvalue == "Dificultad: Easy") {
-        dificultList = rolelist.filter(champ => champ.difficulty < 4);
-    } else if (dificultvalue == "Dificultad: Average") {
-        dificultList = rolelist.filter(champ => champ.difficulty >= 4 && champ.difficulty <= 6);
+    alfabeticlist = datos.sortAlfabeticaly(initialList, alfabeticvalue);
 
-    } else {
-        dificultList = rolelist.filter(champ => champ.difficulty >= 7);
-    }
+    let rolelist = [];
+    rolelist = datos.filterbyRole(alfabeticlist, rolevalue);
+    
+    let dificultList = [];
+    dificultList = datos.filterbyDificult(rolelist, dificultvalue);
     fillDashboard(dificultList);
 }
 
@@ -94,7 +74,7 @@ function rolefilterall() {
 }
 alldificult.addEventListener("click", dificultfiltertodos);
 function dificultfiltertodos() {
-    alldificult.innerHTML = "Todas las Dificultades";
+    dificultlabel.innerHTML = "Todas las Dificultades";
     joinedFilter()
 }
 

@@ -26,6 +26,38 @@ const datos = {
         return ((b.name < a.name) ? -1 : ((b.name > a.name) ? 1 : 0));
     },
 
+    filterbyRole: (list, rolevalue) => {
+        let rolelist = [];
+        if (rolevalue == "Todos los Roles") {
+            return rolelist = list;
+        } else {
+            return rolelist = list.filter(champ => champ.tags.includes(rolevalue));
+        }
+    },
+
+    filterbyDificult: (list, dificultvalue) =>{
+    let dificultlist = [];
+    if (dificultvalue == "Todas las Dificultades") {
+        dificultlist = list;
+    } else if (dificultvalue == "Dificultad: Easy") {
+        dificultlist = list.filter(champ => champ.difficulty < 4);
+    } else if (dificultvalue == "Dificultad: Average") {
+        dificultlist = list.filter(champ => champ.difficulty >= 4 && champ.difficulty <= 6);
+    } else {
+        dificultlist = list.filter(champ => champ.difficulty >= 7);
+    }
+    return dificultlist;
+},
+sortAlfabeticaly: (list, alfabeticvalue,) => {
+    let alfabeticlist = []
+if (alfabeticvalue == "Ordenar: A-Z") {
+    return alfabeticlist = list.sort(datos.az);
+}
+else { 
+    return alfabeticlist = list.sort(datos.za);}
+},
+
+
 }
 
 
