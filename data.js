@@ -9,12 +9,12 @@ const datos = {
             let card = {
                 name: dataLol[champ].name,
                 image: dataLol[champ].img,
-                difficulty: dataLol [champ].info.difficulty,
-                tags:dataLol[champ].tags
+                difficulty: dataLol[champ].info.difficulty,
+                tags: dataLol[champ].tags
             }
             championname.push(card);
         }
-        
+
         return championname;
     },
 
