@@ -14,7 +14,7 @@ const datos = {
             }
             championname.push(card);
         }
-
+        //console.log(championname)
         return championname;
     },
 
@@ -27,11 +27,11 @@ const datos = {
     },
 
     filterbyRole: (list, rolevalue) => {
-        let rolelist = [];
+        
         if (rolevalue == "Todos los Roles") {
-            return rolelist = list;
+            return list;
         } else {
-            return rolelist = list.filter(champ => champ.tags.includes(rolevalue));
+            return list.filter(champ => champ.tags.includes(rolevalue));
         }
     },
 
@@ -49,12 +49,12 @@ const datos = {
     return dificultlist;
 },
 sortAlfabeticaly: (list, alfabeticvalue,) => {
-    let alfabeticlist = []
+    
 if (alfabeticvalue == "Ordenar: A-Z") {
-    return alfabeticlist = list.sort(datos.az);
+    return list.sort(datos.az);
 }
 else { 
-    return alfabeticlist = list.sort(datos.za);}
+    return list.sort(datos.za);}
 },
 
 

@@ -4,7 +4,7 @@ let initialList = datos.allCards();
 
 
 //Elementos de la pagina con los que interactuo orden buscador
-const buscardor = document.getElementById("buscador")
+const buscardor = document.getElementById("buscador");
 
 //Elementos de la pagina con los que interactuo orden alfabetico
 const orderlabel = document.getElementById("order");
@@ -50,6 +50,7 @@ function joinedFilter() {
 
 buscardor.addEventListener('keyup', findName);
 function findName() {
+    let finalList = [];
     let stringName = buscardor.value;
     finalList = initialList.filter(champ => champ.name.toLowerCase().includes(stringName.toLowerCase()));
     console.log(finalList);
