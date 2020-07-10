@@ -149,9 +149,10 @@ function fillDashboard(desiredList) {
     clearDashboard();
     desiredList.forEach(element => {
 
-        let div = document.createElement("div");
+        let div = document.createElement("a");
         div.className = "tarjeta";
         div.id = element.name;
+        div.href = "vista.html?"+element.name;  
 
         let img = document.createElement("img");
         img.src = element.image;
@@ -166,17 +167,21 @@ function fillDashboard(desiredList) {
     })
 }
 
-
+//<a href="vista.html?name=akali">link text</a>
 window.onload = function allChamps() {
 
     initialList.forEach(element => {
 
-        let div = document.createElement("div");
+        let div = document.createElement("a");
         div.className = "tarjeta";
         div.id = element.name;
+        div.href = "vista.html?"+element.name;  
+  
+        
 
         let img = document.createElement("img");
         img.src = element.image;
+        img
 
         let photoname = document.createElement("h5");
         photoname.innerHTML = element.name;
