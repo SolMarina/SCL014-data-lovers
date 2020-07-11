@@ -11,6 +11,7 @@ window.onload = function cambiar() {
     const champname = pageURL.replace('?', "").replace('%20', " ").replace('%27', "'");
     console.log(champname);
 
+
     const pic = document.getElementById("foto");
     const labelName = document.getElementById("name1");
     const labelTitle = document.getElementById("title1")
