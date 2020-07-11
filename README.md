@@ -81,7 +81,7 @@ Los spring serán trabajados en periodos de 1 semana, pudiéndose prolongar si f
 planificar los objetivos o tareas para ese día, al finalizar la jornada se verifica si las mismas fueron alcanzadas 
 en un 100% o no permitiendo entonces tener un punto de partida en el siguiente daily.
 
-![Trello del proyecto]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Trello.png)
+![Trello del proyecto](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Trello.png)
 [link del trello](https://trello.com/b/wwR1sXV1/proyecto-world-lol)
 
 
@@ -91,8 +91,8 @@ Se elaboro un formulario para poder hacer el testeo inicial del proyecto debido 
 predomina la comunicación en modo Remoto. A fin de determinar los requerimientos de nuestro target o  grupo de 
 usuarios a quien sera dirigida la aplicación.
 
-![Encuesta 1]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_1.png)
-![Encuesta 1]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_2.png)
+![Encuesta 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_1.png)
+![Encuesta 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_2.png)
 
 ##Resumiendo la data obtenida
 
@@ -101,8 +101,8 @@ Nuestros Usuarios son jugadores entre 20 y 40 años, que usan el juego de manera
  en cada encuentro, les motiva mucho las competencia internacional o juegos de la liga y quieren estar actualizados 
  constantemente las mejoras de sus campeones favoritos
 
-![Edad]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Edad.png)
-![Frecuencia]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Frecuencia.png)
+![Edad](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Edad.png)
+![Frecuencia](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Frecuencia.png)
 
 * ¿Cuáles son los objetivos de nuestros estos usuarios para con el producto?
 Mantenerse actualizados a los jugadores frecuentes con respecto a las mejoras de sus campeones y los eventos internacionales
@@ -114,8 +114,8 @@ Visualizar de manera independiente a su jugador favorito mostrandole datos mas r
 rol, dificultad, reseña del personaje entre otros
 Agrupar a los campeones por roles, dificultad, magia, ataque entre otros
 
-![Roles]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Roles.png)
-![Dificultad]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Dificultad.png)
+![Roles](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Roles.png)
+![Dificultad](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Dificultad.png)
 
 Con respeto a la grafica, los usuarios indicaron que fuera lo mas similar a la del juego en si, donde predominan los tonos oscuros de azul, morado y negro
 
@@ -131,9 +131,9 @@ Esta representación es solo el inicio, la misma puede sufrir cambios una ves qu
 
 * Bocetos a Mano alzada
 * 
-![Mano alzada 1]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Manoalzada1.png)
-![Mano alzada 2]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Manoalzada2.png)
-![Mano alzada 3]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Manoalzada3png)
+![Mano alzada 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Manoalzada1.png)
+![Mano alzada 2](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Manoalzada2.png)
+![Mano alzada 3](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Manoalzada3png)
 
 
 * Prototipo de baja fidelidad
@@ -142,9 +142,9 @@ un mockup, pasaremos a hacer el primer testeo con usuarios.
 Este prototipo a mano alzada fue trabajado en  una aplicación llamada Balsamiq que nos da una visión  mas cercana al esquema 
 que queremos ver en nuestro producto final y con ella iteramos nuevamente con nuestros usuarios.
 
-![Baja Fidelidad 1]((https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S01_BF.png))
-![Baja Fidelidad 2](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S02_BF.png))
-![Baja Fidelidad 3]((https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S03_BF.png))
+![Baja Fidelidad 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S01_BF.png)
+![Baja Fidelidad 2](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S02_BF.png)
+![Baja Fidelidad 3](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S03_BF.png)
 
 
 En este primer prototipo, quisimos que  nuestra pantalla de inicio mostrase el nombre de la aplicación, un menú donde se 
@@ -179,7 +179,7 @@ las mas importantes para el resultado final, serán divididas en tareas y su tie
 *Definición de terminado*
 Al ingresar a la página el usuario podrá encontrarse con todos los campeones de la data LOL. Cumple con la guía de estilos definida. Está en el repositorio de Github. 
 
-![Historia de Usuario 1]((https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/HU01.png))
+![Historia de Usuario 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/HU01.png)
 
 **Historia N° 2**
 **22 años. Hombre, Yo como jugador frecuente quiero filtrar la lista de campeones para identificarlos por sus roles o dificultad.**
@@ -196,7 +196,7 @@ Al ingresar a la página el usuario puede posicionarse en el menú y seleccionar
 pantalla los campeones según la selección del filtros solicitada. Cumple con la guía de estilos definida. 
 Está en el repositorio de Github. 
 
-![Historia de Usuario 1]((https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/HU02.png))
+![Historia de Usuario 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/HU02.png)
 
 
 **Historia N° 3**
@@ -212,7 +212,7 @@ Está en el repositorio de Github.
 **Definición de terminado**
 Al ingresar a la página el usuario puede posicionarse en el campo de búsqueda e introducir el nombre del campeón, se realiza la búsqueda y se desplegara en pantalla con el campeones solicitado. Cumple con la guía de estilos definida. Está en el repositorio de Github.
 
-![Historia de Usuario 1]((https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/HU03.png))
+![Historia de Usuario 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/HU03.png)
 
 
 #### TESTEO DE USABILIDAD 
