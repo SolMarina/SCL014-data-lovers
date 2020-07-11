@@ -13,18 +13,16 @@ window.onload = function cambiar() {
 
     const pic = document.getElementById("foto");
     const labelName = document.getElementById("name1");
-    const labelTitle= document.getElementById("title1")
-    const labelblurb= document.getElementById("blurb1")
+    const labelTitle = document.getElementById("title1")
+    const labelblurb = document.getElementById("blurb1")
 
     for (const hero in dataLol) {
-        if (champname==dataLol[hero].name){
-            pic.src=dataLol[hero].splash;
-           labelName.innerText= dataLol[hero].name;
-           labelTitle.innerText= dataLol[hero].title;
-           labelblurb.innerHTML= dataLol[hero].blurb;
+        if (champname == dataLol[hero].name) {
+            pic.src = dataLol[hero].splash;
+            labelName.innerText = dataLol[hero].name;
+            labelTitle.innerText = dataLol[hero].title;
+            labelblurb.innerHTML = dataLol[hero].blurb;
         }
-      }
+    }
 
 }
-
-
