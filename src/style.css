@@ -1,12 +1,13 @@
 body {
     background-image: url();
-    background-color: #08121C;
+    background-color: rgb(1, 10, 19);
+    background: linear-gradient(200deg, rgb(1, 10, 19), rgb(2, 49, 69));
     position: center;
-    background-repeat: no-repeat;
+    
 }
 
 .header {
-    background-color: black;
+    background-image: url(img/Sheader.png);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -42,7 +43,17 @@ h1 {
     display: flex;
     width: 100%;
     font-family: lolFont;
-    background-color: #061e1e;
+    background-color: rgb(2, 7, 13);
+    color: rgb(227, 186, 61);
+}
+
+#buscador{
+    font-family: lolFont;
+    color: rgb(227, 186, 61);
+    background-color: rgb(2, 7, 13);
+    font-size: 100%;
+    border: 3px solid #555;
+    transition: width 0.4s ease-in-out;
 }
 
 ul,
@@ -62,7 +73,7 @@ ol {
 }
 
 .nav li a {
-    background-color: #061e1e;
+    background-color: rgb(2, 7, 13);
     color: rgb(227, 186, 61);
     text-decoration: none;
     padding: 10px 12px;
@@ -70,7 +81,7 @@ ol {
 }
 
 .nav li a:hover {
-    background-color: rgb(0, 14, 14);
+    background-color: rgb(1, 29, 43);
 }
 
 .nav li ul {
@@ -135,45 +146,51 @@ a {
 }
 
 #seccion {
-    padding: 10px;
-    justify-content: center;
-    width: 100%;
+    border: 3px solid rgb(227, 186, 61);
     display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
 }
 
-.seccion img {
+#foto {
     width: 100%;
-    height: 100%;
-    position: relative;
+    height: auto;
+    position:relative;
 }
 
 #principal {
-    /*background-color: purple;*/
-    width: 25%;
-    height: 80%;
-    margin-top: 300px;
+
+    width: 30%;
+    height: 137%;
+    margin-top: 145px;
     margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 15%;
+    margin-bottom: 0;
+    margin-left: -5px;
     /*float: left;*/
-    background: linear-gradient(80deg, #000107, #292e0200);
+    background: linear-gradient(200deg, #000107, #eb0fd800);
     z-index: 1;
     order: 4;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
 }
 
 #name1 {
     text-align: center;
     align-content: center;
-    /*background-color: rgb(61, 72, 227);*/
     color: rgb(227, 186, 61);
     font-family: lolFont;
+    font-size: 400%;
+    font-weight: bolder;
+    
 }
 
 #grafica {
     text-align: center;
-    align-content: center;
+    
 }
 
 #title1 {
@@ -182,19 +199,29 @@ a {
     /*background-color: rgb(61, 64, 227);*/
     color: rgb(227, 186, 61);
     font-family: lolFont;
+    font-size: 200%;
+    font-weight: bold;
 }
 
 #blurb1 {
     text-align: center;
     align-content: center;
-    margin-top: 100%;
     /*background-color: rgb(227, 61, 199);*/
-    color: rgb(227, 186, 61);
+    color: #e3ba3d;
     font-family: lolFont;
+    font-size: 100%;
+    font-weight: bold;
 }
 
 .texto-encima {
     position: absolute;
-    top: 10px;
+    top: 7px;
     left: 10px;
+}
+
+.back{
+    width: 7%;
+    height: 55%;
+    filter: invert(78%) sepia(61%) saturate(574%) hue-rotate(348deg) brightness(99%) contrast(80%);
+
 }
