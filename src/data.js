@@ -1,4 +1,4 @@
-import lol from "./data/lol/lol.js";
+import lol from './data/lol/lol.js';
 
 const dataLol = lol.data
 
@@ -18,6 +18,7 @@ const datos = {
             return championname;
         },
 
+<<<<<<< HEAD
         az: (a, b) => {
             return ((a.name < b.name) ? -1 : ((a.name > b.name) ? 1 : 0));
         },
@@ -27,6 +28,47 @@ const datos = {
         },
 
         filterbyRole: (list, rolevalue) => {
+=======
+    filterbyRole: (list, rolevalue) => {
+        
+        if (rolevalue == 'Todos los Roles') {
+            return list;
+        } else {
+            return list.filter(champ => champ.tags.includes(rolevalue));
+        }
+    },
+
+    filterbyDificult: (list, dificultvalue) =>{
+    let dificultlist = [];
+    if (dificultvalue == 'Todas las Dificultades') {
+        dificultlist = list;
+    } else if (dificultvalue == 'Dificultad: Easy') {
+        dificultlist = list.filter(champ => champ.difficulty < 4);
+    } else if (dificultvalue == 'Dificultad: Average') {
+        dificultlist = list.filter(champ => champ.difficulty >= 4 && champ.difficulty <= 6);
+    } else {
+        dificultlist = list.filter(champ => champ.difficulty >= 7);
+    }
+    return dificultlist;
+},
+sortAlfabeticaly: (list, alfabeticvalue,) => {
+    
+if (alfabeticvalue == 'Ordenar: A-Z') {
+    return list.sort(datos.az);
+}
+else { 
+    return list.sort(datos.za);}
+},
+
+givemeThechampion:(championName1)=>{
+
+    for (const hero in dataLol) {
+        if (dataLol[hero].name == championName1) {
+            return dataLol[hero];
+        }
+    }
+},
+>>>>>>> b7608356e7d14a3ba136d13b3432414d77722afb
 
             if (rolevalue == "Todos los Roles") {
                 return list;

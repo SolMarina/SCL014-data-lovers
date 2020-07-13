@@ -28,9 +28,7 @@ jugadores en simultaneo en League, que hacen de League of Legends el juego de PC
 del mundo", y recientemente se realizó una **encuesta en Reddit** que culminó en un informe entre 
 otras cosas demográfico sobre estos jugadores, el cual reveló datos muy interesantes.
 
-
-Imagen referencial a nivel mundial 2019
-
+![Datos de la encuesta Reddit](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/LOLENCUESTA.png)
 
 Profundizando un poco más en los detalles,un **75%** de los jugadores tienen menos de **25 años** y 
 el **78%** de ellos comenzaron a jugar antes de la **Season 6 (2016)**, y tienen entre 6 y 7 años 
@@ -47,9 +45,9 @@ Si a esto se suma su aspecto social, donde se puede compartir con amigos o compl
 ubicados al otro lado del mundo, es entendible su atractivo entre los adolescentes de 12 a 18 años 
 y los adultos jóvenes en sus tempranos 20, señala ***Daniela Abarca, periodista de Copa Gamer.***
 
->>De hecho, LoL obtiene sus ganancias gracias a lo llamativo de los torneos, que tienen auspiciadores como Coca Cola o Samsung- -Julio Gallardo
+>De hecho, LoL obtiene sus ganancias gracias a lo llamativo de los torneos, que tienen auspiciadores como Coca Cola o Samsung- -Julio Gallardo
 
->>LoL es adictivo porque no es un juego difícil para alguien que recién entra en el mundo de los MOBAs.--Daniela Abarca
+>LoL es adictivo porque no es un juego difícil para alguien que recién entra en el mundo de los MOBAs.--Daniela Abarca
 
 
 ## NOMBRE DEL PROYECTO
@@ -94,7 +92,7 @@ usuarios a quien sera dirigida la aplicación.
 ![Encuesta 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_1.png)
 ![Encuesta 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_2.png)
 
-##Resumiendo la data obtenida
+## Resumiendo la data obtenida
 
 * ¿Quiénes son los principales usuarios de productos?
 Nuestros Usuarios son jugadores entre 20 y 40 años, que usan el juego de manera periódica y buscan subir de niveles
@@ -228,75 +226,3 @@ mejoraste en tu propuesta final.
 
 PENDIDENTE PARA DEARROLLAR CON LAS 1ERA HISTORIA
 
-## OBJETIVOS DE APRENDIZAJE 
-
-El objetivo principal de este proyecto es que, entendiendo las necesidades de
-tus usuarios, aprendas a diseñar y construir una interfaz web donde se pueda
-visualizar y manipular data.
-
-Revisa la lista y reflexiona sobre los objetivos que conseguiste en el
-proyecto anterior. Piensa en eso al decidir tu estrategia de trabajo individual
-y de equipo.
-
-### UX
-
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener _feedback_ e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
-- [ ] Planear y ejecutar _tests_ de usabilidad.
-
-### HTML y CSS
-
-- [ ] Entender y reconocer por qué es importante el HTML semántico.
-- [ ] Identificar y entender tipos de selectores en CSS.
-- [ ] Entender como funciona `flexbox` en CSS.
-- [ ] Construir tu aplicación respetando el diseño planeado (maquetación).
-
-### DOM
-
-- [ ] Entender y reconocer los selectores del DOM (`querySelector` | `querySelectorAll`).
-- [ ] Manejar eventos del DOM. (`addEventListener`)
-- [ ] Manipular dinámicamente el DOM. (`createElement`, `appendchild`, `innerHTML`, `value`)
-
-### Javascript
-
-- [ ] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
-- [ ] Manipular objects (key | value).
-- [ ] Entender el uso de condicionales (`if-else` | `switch`).
-- [ ] Entender el uso de bucles (`for` | `forEach`).
-- [ ] Entender la diferencia entre expression y statements.
-- [ ] Utilizar funciones (`parámetros` | `argumentos` | `valor de retorno`).
-- [ ] Entender la diferencia entre tipos de datos atómicos y estructurados.
-- [ ] Utilizar ES Modules (`import` | `export`).
-
-### Pruebas Unitarias (_testing_)
-- [ ] Testear funciones (funciones puras).
-
-### Git y GitHub
-- [ ] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
-- [ ] Utilizar los repositorios de GitHub (`clone` | `fork` | `gh-pages`).
-- [ ] Colaborar en Github (`pull requests`).
-
-### Buenas prácticas de desarrollo
-- [ ] Organizar y dividir el código en módulos (Modularización).
-- [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
-
-### Soft skills
-- [ ] **Planificación, organización y manejo del tiempo** Organizarse utilizando historias de usuario, haciendo una estimación general de los tiempos que se necesitarán para la realización del proyecto. Conocer las ceremonias y artefactos ágiles (sprint planning, dailys, retrospectiva, tablero al menos, etc) a pesar de que no se utilicen con regularidad.
-
-- [ ] **Trabajo en equipo** Trabajar con otros de forma colaborativa y en base a un objetivo común, entregando ideas para la construcción del proyecto
-
-- [ ] **Autoaprendizaje** Demostrar interés y adquirir nuevos conocimientos autónomamente, estudiando de manera independiente, lo que se traduce, en que cuando es necesario, la estudiante buscará aclarar conceptos y resolver dudas sobre la materia.
-
-- [ ] **Presentaciones** Utilizar ciertas estrategias para hablar en público (tono y ritmo de voz adecuado, contacto visual con el público, interacción con medios de presentación), que permitan asegurar un mediano entendimiento de la audiencia.
-
-- [ ] **Adaptabilidad** Afrontar los cambios inesperados o nuevos desafíos con una actitud positiva, aunque no necesariamente se logre accionar o adaptarse de la mejor manera a los diferentes contextos.
-
-- [ ] **Solución de problemas** Trabajar en la búsqueda y en la elaboración de soluciones alternativas a problemas de mediana complejidad.
-
-- [ ] **Responsabilidad** Demostrar actitud de compromiso, reflejandolo en la entrega de trabajo a tiempo, llegando a la hora acordada y/o avisando cuando no se pueda asistir.
-
-- [ ] **Dar y recibir feedback** Escuchar los comentarios y críticas de los demás de manera respetuosa, y/o comunicar a los demás las opiniones de forma constructiva.
-
-- [ ] **Comunicación eficaz** Comunicar ideas a los demás cuando es necesario, aunque no siempre se fomenten de manera proactiva estas instancias de comunicación.
