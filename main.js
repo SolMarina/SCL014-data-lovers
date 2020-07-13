@@ -4,31 +4,31 @@ let initialList = datos.allCards();
 
 
 //Elementos de la pagina con los que interactuo orden buscador
-const buscardor = document.getElementById("buscador");
+const buscardor = document.getElementById('buscador');
 
 //Elementos de la pagina con los que interactuo orden alfabetico
-const orderlabel = document.getElementById("order");
-const aToz = document.getElementById("az");
-const zToa = document.getElementById("za");
+const orderlabel = document.getElementById('order');
+const aToz = document.getElementById('az');
+const zToa = document.getElementById('za');
 
 //Elementos de la pagina con los que interactuo por roles
-const roleOrder = document.getElementById("roleOrder");
-const tankfilter = document.getElementById("tank");
-const fightfilter = document.getElementById("fighter");
-const supportfilter = document.getElementById("support");
-const magefilter = document.getElementById("mage");
-const assasinfilter = document.getElementById("assasin");
-const marksmanfilter = document.getElementById("marksman");
-const allrole = document.getElementById("todos");
+const roleOrder = document.getElementById('roleOrder');
+const tankfilter = document.getElementById('tank');
+const fightfilter = document.getElementById('fighter');
+const supportfilter = document.getElementById('support');
+const magefilter = document.getElementById('mage');
+const assasinfilter = document.getElementById('assasin');
+const marksmanfilter = document.getElementById('marksman');
+const allrole = document.getElementById('todos');
 
 //Elementos de la pagina con los que interactuo por dificultad
-const dificultlabel = document.getElementById("dificult")
-const easyfilter = document.getElementById("easy");
-const averagefilter = document.getElementById("average");
-const hardfilter = document.getElementById("hard");
-const alldificult = document.getElementById("all");
+const dificultlabel = document.getElementById('dificult')
+const easyfilter = document.getElementById('easy');
+const averagefilter = document.getElementById('average');
+const hardfilter = document.getElementById('hard');
+const alldificult = document.getElementById('all');
 //Elemento para imprimir cajitas
-const dashboard = document.getElementById("dashboard");
+const dashboard = document.getElementById('dashboard');
 
 function joinedFilter() {
     
@@ -57,84 +57,84 @@ function findName() {
     fillDashboard(finalList);
 }
 
-aToz.addEventListener("click", ordenardeaz);
+aToz.addEventListener('click', ordenardeaz);
 function ordenardeaz() {
-    orderlabel.innerHTML = "Ordenar: A-Z";
+    orderlabel.innerHTML = 'Ordenar: A-Z';
     joinedFilter()
 }
-zToa.addEventListener("click", ordenardeza);
+zToa.addEventListener('click', ordenardeza);
 function ordenardeza() {
-    orderlabel.innerHTML = "Ordenar: Z-A";
+    orderlabel.innerHTML = 'Ordenar: Z-A';
     joinedFilter()
 }
 
-allrole.addEventListener("click", rolefilterall);
+allrole.addEventListener('click', rolefilterall);
 function rolefilterall() {
-    roleOrder.innerHTML = "Todos los Roles";
+    roleOrder.innerHTML = 'Todos los Roles';
     joinedFilter()
 }
-alldificult.addEventListener("click", dificultfiltertodos);
+alldificult.addEventListener('click', dificultfiltertodos);
 function dificultfiltertodos() {
-    dificultlabel.innerHTML = "Todas las Dificultades";
+    dificultlabel.innerHTML = 'Todas las Dificultades';
     joinedFilter()
 }
 
-tankfilter.addEventListener("click", rolefiltertank);
+tankfilter.addEventListener('click', rolefiltertank);
 function rolefiltertank() {
-    roleOrder.innerHTML = "Tank";
+    roleOrder.innerHTML = 'Tank';
     joinedFilter()
 }
 
-fightfilter.addEventListener("click", rolefilterfighter);
+fightfilter.addEventListener('click', rolefilterfighter);
 function rolefilterfighter() {
-    roleOrder.innerHTML = "Fighter";
+    roleOrder.innerHTML = 'Fighter';
     joinedFilter();
 }
 
 
-supportfilter.addEventListener("click", rolefiltersupport);
+supportfilter.addEventListener('click', rolefiltersupport);
 function rolefiltersupport() {
-    roleOrder.innerHTML = "Support";
+    roleOrder.innerHTML = 'Support';
     joinedFilter();
 }
 
-magefilter.addEventListener("click", rolefiltermage);
+magefilter.addEventListener('click', rolefiltermage);
 function rolefiltermage() {
-    roleOrder.innerHTML = "Mage";
+    roleOrder.innerHTML = 'Mage';
     joinedFilter();
 
 }
 
-assasinfilter.addEventListener("click", rolefilterassasin);
+assasinfilter.addEventListener('click', rolefilterassasin);
 function rolefilterassasin() {
-    roleOrder.innerHTML = "Assassin";
+    roleOrder.innerHTML = 'Assassin';
     joinedFilter();
 
 }
 
-marksmanfilter.addEventListener("click", rolefiltermarksman);
+marksmanfilter.addEventListener('click', rolefiltermarksman);
 function rolefiltermarksman() {
-    roleOrder.innerHTML = "Marksman";
+    roleOrder.innerHTML = 'Marksman';
     joinedFilter();
 }
 
-hardfilter.addEventListener("click", dificultfilterHard);
+hardfilter.addEventListener('click', dificultfilterHard);
 function dificultfilterHard() {
-    dificultlabel.innerHTML = "Dificultad: Hard";
+    dificultlabel.innerHTML = 'Dificultad: Hard';
     joinedFilter();
 }
 
 
-averagefilter.addEventListener("click", dificultfilterAverage);
+averagefilter.addEventListener('click', dificultfilterAverage);
 function dificultfilterAverage() {
-    dificultlabel.innerHTML = "Dificultad: Average";
+    dificultlabel.innerHTML = 'Dificultad: Average';
     joinedFilter();
 }
 
 
-easyfilter.addEventListener("click", dificultfilterEasy);
+easyfilter.addEventListener('click', dificultfilterEasy);
 function dificultfilterEasy() {
-    dificultlabel.innerHTML = "Dificultad: Easy";
+    dificultlabel.innerHTML = 'Dificultad: Easy';
     joinedFilter();
 }
 
@@ -149,15 +149,15 @@ function fillDashboard(desiredList) {
     clearDashboard();
     desiredList.forEach(element => {
 
-        let div = document.createElement("a");
-        div.className = "tarjeta";
+        let div = document.createElement('a');
+        div.className = 'tarjeta';
         div.id = element.name;
-        div.href = "vista.html?"+element.name;  
+        div.href = 'vista.html?'+element.name;  
 
-        let img = document.createElement("img");
+        let img = document.createElement('img');
         img.src = element.image;
 
-        let photoname = document.createElement("h5");
+        let photoname = document.createElement('h5');
         photoname.innerHTML = element.name;
 
         div.appendChild(img);
@@ -172,18 +172,18 @@ window.onload = function allChamps() {
 
     initialList.forEach(element => {
 
-        let div = document.createElement("a");
-        div.className = "tarjeta";
+        let div = document.createElement('a');
+        div.className = 'tarjeta';
         div.id = element.name;
-        div.href = "vista.html?"+element.name;  
+        div.href = 'vista.html?'+element.name;  
   
         
 
-        let img = document.createElement("img");
+        let img = document.createElement('img');
         img.src = element.image;
         img
 
-        let photoname = document.createElement("h5");
+        let photoname = document.createElement('h5');
         photoname.innerHTML = element.name;
 
         div.appendChild(img);
