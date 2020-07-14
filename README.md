@@ -2,13 +2,13 @@
 
 # World League of legends
 
-* [A. Antecedentes] 
-* [B. Nombre del Juego] 
-* [C. Planificación del proyecto] 
-* [D. Recolectando la información] 
-* [E. Diseñando ideas sobre la interfaz ]  
-* [F. Historias de Usuarios]
-* [G. Testeo de Usabilidad] 
+* A. Antecedentes
+* B. Nombre del Juego
+* C. Planificación del proyecto
+* D. Recolectando la información
+* E. Diseñando ideas sobre la interfaz
+* F. Historias de Usuarios
+* G. Testeo de Usabilidad
 
 ***
 ## A. ANTECEDENTES
@@ -28,18 +28,19 @@ jugadores en simultaneo en League, que hacen de League of Legends el juego de PC
 del mundo", y recientemente se realizó una **encuesta en Reddit** que culminó en un informe entre 
 otras cosas demográfico sobre estos jugadores, el cual reveló datos muy interesantes.
 
-![Datos de la encuesta Reddit](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/CambiosCss2/src/img/LOLENCUESTA%20.png)
+![Datos de la encuesta Reddit](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/CambiosCss2/src/img/LOLENCUESTA%20.png) 
+
 
 Profundizando un poco más en los detalles,un **75%** de los jugadores tienen menos de **25 años** y 
 el **78%** de ellos comenzaron a jugar antes de la **Season 6 (2016)**, y tienen entre 6 y 7 años 
-como jugadores de League of Legends. 
+como jugadores de League of Legends.
 
 
 ## Opiniones de Relacionados al Juego
 
 ***Julio Gallardo, administrador de la comunidad Lolchile.cl***, explica que su masificación se debe 
 principalmente a dos cosas: no se necesita pagar para jugar y tampoco un computador demasiado 
-poderoso para que funcione. 
+poderoso para que funcione.
 
 Si a esto se suma su aspecto social, donde se puede compartir con amigos o completos desconocidos 
 ubicados al otro lado del mundo, es entendible su atractivo entre los adolescentes de 12 a 18 años 
@@ -115,7 +116,7 @@ Visualizar de manera independiente a su jugador favorito mostrandole datos mas r
 rol, dificultad, reseña del personaje entre otros
 Agrupar a los campeones por roles, dificultad, magia, ataque entre otros
 
-![Roles](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/roles.png)
+![Orden Alfabético](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/OrdenAlfabetico.png)
 
 ![Dificultad](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/CambiosCss2/src/img/TarjetaCampeon.png)
 
@@ -133,11 +134,11 @@ Esta representación es solo el inicio, la misma puede sufrir cambios una ves qu
 
 * Bocetos a Mano alzada
 * 
-![Mano alzada 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/ManoAlzada1.png)
+![Mano alzada 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ManoAlzada1.jpeg)
 
-![Mano alzada 2](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/ManoAlzada2.png)
+![Mano alzada 2](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ManoAlzada2.jpeg)
 
-![Mano alzada 3](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/ManoAlzada3png)
+![Mano alzada 3](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ManoAlzada3.jpeg)
 
 
 * Prototipo de baja fidelidad
@@ -163,9 +164,7 @@ El prototipo de alta fidelidad se hizo con la combinación de Canvas para llevar
 que buscamos plasmar en nuestra aplicación Web. Con el invision aplicamos la interacción de las imágenes  y poder brindarle 
 a los usuarios una experiencia mas cercana a lo que obtendrán una ves terminado este proyecto. 
 Las propuestas fueron cambiando según nuestros usuarios iteraban con ellas. Dandole un backgraung diferente, Colocando el boton para acceder a los partidos de la liga en la parte superior derecha entre otros que se iran desarrollando con el paso de las Historias de usuario 
-
-[link de prototype en invision](https://algrismarquez114595.invisionapp.com/public/share/ZW18K0DZVB#/screens/479079190)
-
+![Filtros combinados]
 
 ## HISTORIAS DE USUARIOS
 Las historias de usuario conforman la parte central de muchas metodologías de desarrollo ágil, Estas definen lo que se debe construir en el proyecto de software, tienen una prioridad asociada definida por el cliente de manera de indicar cuales son 
@@ -185,9 +184,9 @@ las mas importantes para el resultado final, serán divididas en tareas y su tie
 *Definición de terminado*
 Al ingresar a la página el usuario podrá encontrarse con todos los campeones de la data LOL. Cumple con la guía de estilos definida. Está en el repositorio de Github. 
 
-![Vista de los Campeones ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/CambiosCss2/src/img/PageCampeones.png)
+![Vista de los Campeones ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/PageCampeones.png)
 
-![Ordenar de la Z-A ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ordenaz-a.png)
+![Ordenar de la Z-A ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ordenz-a.png)
 **Historia N° 2**
 **22 años. Hombre, Yo como jugador frecuente quiero filtrar la lista de campeones para identificarlos por sus roles o dificultad.**
 
@@ -205,7 +204,7 @@ Está en el repositorio de Github.
 
 ![Filtrado por roles ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/filtroroles.png)
 
-![Filtrado por dificultad ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/filtrodificultad.png)
+![Filtrado por dificultad ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/Filtrodificultad.png)
 
 ![Filtros combinados](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/filtroscombinados.png)
 
@@ -228,9 +227,10 @@ Al ingresar a la página el usuario puede posicionarse en el campo de búsqueda 
 
 #### TESTEO DE USABILIDAD 
 
-El testeo de usabilidad nos permite detectar oportunidades durante la navegación que contribuyan a que el usuario realice una acción determinada. La aplicacion de la misma en este proyecto en particular nos ayudara a conocer cómo los usuarios interactúan con la aplicacion web.
+El testeo de usabilidad nos permite detectar oportunidades durante la navegación que contribuyan a que el usuario realice una acción determinada. La aplicacion de la misma en este proyecto en particular nos ayudara a conocer cómo los usuarios interactúan con la aplicacion web, entendiendo sus preferencias, modo de navegacion e oersoectiva del usuario con el producto final.
 
-el medio remoto nos limita un poco poder apreciar el seguimiento ocular para poder determinar las preferencias de nuestros ususarios, sin embargo somos consiente que esta herramienta del testeo nos ayuda a entender los procesos de toma de decisión.
+El medio remoto nos limita un poco poder apreciar el seguimiento ocular para poder determinar las preferencias de nuestros ususarios, identificando la manera en ¿cómo se informa nuestro ususario?, se puede identificar qué tipos de estímulos prefiere, identifique los principales problemas de navegación. A falta de esta opcion y buscando la manera una mejor documentacion de la investogacion encontramos que existen plugins adicionales que nos ayudan con esta tarea como el *Useberry* que trabaja directamente con Figma. Cabe mencionar que el mismo no pudo ser aplicado a nuestros prototipo de Alta fidelidad por problemas tecnicos sin embargo conocemos el funcionamiento del mismo y valoramos enormemente la informacion adicional que pudo proporcionar a la investigacion
 
+Para los test de Usabilidad se preparo un Scrip a fin de que cualquier miembro del equipo lo desarrollara ya que las disponibilidad Horaria de los mismo era variable
 
-Conocer cómo se informa, identificar qué tipos de estímulos prefiere, identifique los principales problemas de navegación, diseño y percepción directamente desde la perspectiva de sus usuarios. Sin embargo estamos al tanto de que existen plugins adicionales que nos ayudan con esta tarea como el *Useberry* que nos da un mapa de calor de la interaccion del usuario con la misma, todo esto nos ayuda a:
+[Filtros combinados] (https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/Modelo%20test%20usabilidad.pdf)
