@@ -30,6 +30,8 @@ otras cosas demográfico sobre estos jugadores, el cual reveló datos muy intere
 
 ![Datos de la encuesta Reddit](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/CambiosCss2/src/img/LOLENCUESTA%20.png)
 
+[Fuente de la información](https://bolavip.com/gamer/Encuesta-revela-que-el-71-de-los-jugadores-de-League-of-Legends-estan-solteros-20200213-0047.html)
+
 Profundizando un poco más en los detalles,un **75%** de los jugadores tienen menos de **25 años** y 
 el **78%** de ellos comenzaron a jugar antes de la **Season 6 (2016)**, y tienen entre 6 y 7 años 
 como jugadores de League of Legends.
@@ -49,6 +51,7 @@ y los adultos jóvenes en sus tempranos 20, señala ***Daniela Abarca, periodist
 
 >LoL es adictivo porque no es un juego difícil para alguien que recién entra en el mundo de los MOBAs.--Daniela Abarca
 
+[Fuente de la información](https://www.latercera.com/noticia/lol-el-videojuego-de-una-generacion/)
 
 ## NOMBRE DEL PROYECTO
 
@@ -133,7 +136,7 @@ Esta representación es solo el inicio, la misma puede sufrir cambios una ves qu
 
 
 * Bocetos a Mano alzada
-* 
+  
 ![Mano alzada 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ManoAlzada1.jpeg)
 
 ![Mano alzada 2](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ManoAlzada2.jpeg)
@@ -164,7 +167,8 @@ El prototipo de alta fidelidad se hizo con la combinación de Canvas para llevar
 que buscamos plasmar en nuestra aplicación Web. Con el invision aplicamos la interacción de las imágenes  y poder brindarle 
 a los usuarios una experiencia mas cercana a lo que obtendrán una ves terminado este proyecto. 
 Las propuestas fueron cambiando según nuestros usuarios iteraban con ellas. Dandole un backgraung diferente, Colocando el boton para acceder a los partidos de la liga en la parte superior derecha entre otros que se iran desarrollando con el paso de las Historias de usuario 
-![Filtros combinados]
+
+[LINK DEL PROTOTIPO DE ALTA FIDELIDAD EN INVISION](https://algrismarquez114595.invisionapp.com/public/share/ZW18K0DZVB#/screens/479079190)
 
 ## HISTORIAS DE USUARIOS
 
@@ -172,6 +176,7 @@ Las historias de usuario conforman la parte central de muchas metodologías de d
 las mas importantes para el resultado final, serán divididas en tareas y su tiempo será estimado por los desarrolladores. Partiendo de este concepto, nuestras historias de usuarios son las siguientes:
 
 **Historia N° 1**
+
 **28 años. Hombre, Yo como jugador frecuente quiero ordenar a los campeones de la A-Z y viceversa.**
 
 “...información de los campeones y tips particulares para el campeón...”
@@ -191,6 +196,7 @@ Al ingresar a la página el usuario podrá encontrarse con todos los campeones d
 
 
 **Historia N° 2**
+
 **22 años. Hombre, Yo como jugador frecuente quiero filtrar la lista de campeones para identificarlos por sus roles o dificultad.**
 
 “..info de los diferentes champios, roles, dificultad y tips generales”
@@ -213,6 +219,7 @@ Está en el repositorio de Github.
 
 
 **Historia N° 3**
+
 **40 años. Mujer, Yo como jugador quisiera seleccionar al jugador de manera individual y ver toda la información sobre el**
 
 “..Ver información detallada el los campeones de manera individual”
