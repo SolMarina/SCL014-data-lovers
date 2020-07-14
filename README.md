@@ -2,13 +2,13 @@
 
 # World League of legends
 
-* [A. Antecedentes] 
-* [B. Nombre del Juego] 
-* [C. Planificación del proyecto] 
-* [D. Recolectando la información] 
-* [E. Diseñando ideas sobre la interfaz ]  
-* [F. Historias de Usuarios]
-* [G. Testeo de Usabilidad] 
+* A. Antecedentes
+* B. Nombre del Juego
+* C. Planificación del proyecto
+* D. Recolectando la información
+* E. Diseñando ideas sobre la interfaz
+* F. Historias de Usuarios
+* G. Testeo de Usabilidad
 
 ***
 ## A. ANTECEDENTES
@@ -28,29 +28,30 @@ jugadores en simultaneo en League, que hacen de League of Legends el juego de PC
 del mundo", y recientemente se realizó una **encuesta en Reddit** que culminó en un informe entre 
 otras cosas demográfico sobre estos jugadores, el cual reveló datos muy interesantes.
 
+![Datos de la encuesta Reddit](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/CambiosCss2/src/img/LOLENCUESTA%20.png)
 
-Imagen referencial a nivel mundial 2019
-
+[Fuente de la información](https://bolavip.com/gamer/Encuesta-revela-que-el-71-de-los-jugadores-de-League-of-Legends-estan-solteros-20200213-0047.html)
 
 Profundizando un poco más en los detalles,un **75%** de los jugadores tienen menos de **25 años** y 
 el **78%** de ellos comenzaron a jugar antes de la **Season 6 (2016)**, y tienen entre 6 y 7 años 
-como jugadores de League of Legends. 
+como jugadores de League of Legends.
 
 
 ## Opiniones de Relacionados al Juego
 
 ***Julio Gallardo, administrador de la comunidad Lolchile.cl***, explica que su masificación se debe 
 principalmente a dos cosas: no se necesita pagar para jugar y tampoco un computador demasiado 
-poderoso para que funcione. 
+poderoso para que funcione.
 
 Si a esto se suma su aspecto social, donde se puede compartir con amigos o completos desconocidos 
 ubicados al otro lado del mundo, es entendible su atractivo entre los adolescentes de 12 a 18 años 
 y los adultos jóvenes en sus tempranos 20, señala ***Daniela Abarca, periodista de Copa Gamer.***
 
->>De hecho, LoL obtiene sus ganancias gracias a lo llamativo de los torneos, que tienen auspiciadores como Coca Cola o Samsung- -Julio Gallardo
+>De hecho, LoL obtiene sus ganancias gracias a lo llamativo de los torneos, que tienen auspiciadores como Coca Cola o Samsung- -Julio Gallardo
 
->>LoL es adictivo porque no es un juego difícil para alguien que recién entra en el mundo de los MOBAs.--Daniela Abarca
+>LoL es adictivo porque no es un juego difícil para alguien que recién entra en el mundo de los MOBAs.--Daniela Abarca
 
+[Fuente de la información](https://www.latercera.com/noticia/lol-el-videojuego-de-una-generacion/)
 
 ## NOMBRE DEL PROYECTO
 
@@ -59,12 +60,12 @@ de héroes y villanos que tienen una variedad de historias, adonde predomina la 
 que la conforman para mantener el poderío. El juego consta de 3 modos actuales de juego en ejecución:
 **La Grieta del Invocador, El Abismo de los Lamentos y Teamfight Tactics,** por lo que la diversidad de 
 escenarios y personajes nos inspiraron para llamar a nuestra pagina 
-##**”World League of Legends”**
+## **”World League of Legends”**
 
 
 ## PLANIFICACIÓN DEL PROYECTO
 
-Se trabajo bajo la metodología ágil **Scrum** ya que nos permite la división del trabajo completo en 
+Se trabajo bajo la metodología ágil ya que nos permite la división del trabajo completo en 
 distintos apartados o bloques, que se abordan en periodos corto de tiempo desde 1 hasta 3 semanas como es 
 el caso de este proyecto). Seleccionamos esta metodología ya que fomenta la motivación y el compromiso del 
 equipo, permitiendo una mayor productividad así como el desglose del trabajo favorece a que las necesidades
@@ -81,7 +82,8 @@ Los spring serán trabajados en periodos de 1 semana, pudiéndose prolongar si f
 planificar los objetivos o tareas para ese día, al finalizar la jornada se verifica si las mismas fueron alcanzadas 
 en un 100% o no permitiendo entonces tener un punto de partida en el siguiente daily.
 
-![Trello del proyecto]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Trello.png)
+![Trello del proyecto](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Trello.png)
+
 [link del trello](https://trello.com/b/wwR1sXV1/proyecto-world-lol)
 
 
@@ -91,18 +93,21 @@ Se elaboro un formulario para poder hacer el testeo inicial del proyecto debido 
 predomina la comunicación en modo Remoto. A fin de determinar los requerimientos de nuestro target o  grupo de 
 usuarios a quien sera dirigida la aplicación.
 
-![Encuesta 1]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_1.png)
-![Encuesta 1]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_2.png)
+![Encuesta 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_1.png)
 
-##Resumiendo la data obtenida
+![Encuesta 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_2.png)
 
-* ¿Quiénes son los principales usuarios de productos?
+
+## Resumiendo la data obtenida
+
+* ¿Quiénes son los principales usuarios de
 Nuestros Usuarios son jugadores entre 20 y 40 años, que usan el juego de manera periódica y buscan subir de niveles
  en cada encuentro, les motiva mucho las competencia internacional o juegos de la liga y quieren estar actualizados 
  constantemente las mejoras de sus campeones favoritos
 
-![Edad]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Edad.png)
-![Frecuencia]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Frecuencia.png)
+![Edad](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Edad.png)
+
+![Frecuencia](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Frecuencia.png)
 
 * ¿Cuáles son los objetivos de nuestros estos usuarios para con el producto?
 Mantenerse actualizados a los jugadores frecuentes con respecto a las mejoras de sus campeones y los eventos internacionales
@@ -114,8 +119,9 @@ Visualizar de manera independiente a su jugador favorito mostrandole datos mas r
 rol, dificultad, reseña del personaje entre otros
 Agrupar a los campeones por roles, dificultad, magia, ataque entre otros
 
-![Roles]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Roles.png)
-![Dificultad]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Dificultad.png)
+![Orden Alfabético](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/OrdenAlfabetico.png)
+
+![Dificultad](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/CambiosCss2/src/img/TarjetaCampeon.png)
 
 Con respeto a la grafica, los usuarios indicaron que fuera lo mas similar a la del juego en si, donde predominan los tonos oscuros de azul, morado y negro
 
@@ -130,10 +136,12 @@ Esta representación es solo el inicio, la misma puede sufrir cambios una ves qu
 
 
 * Bocetos a Mano alzada
-* 
-![Mano alzada 1]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Manoalzada1.png)
-![Mano alzada 2]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Manoalzada2.png)
-![Mano alzada 3]([https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Manoalzada3png)
+  
+![Mano alzada 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ManoAlzada1.jpeg)
+
+![Mano alzada 2](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ManoAlzada2.jpeg)
+
+![Mano alzada 3](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ManoAlzada3.jpeg)
 
 
 * Prototipo de baja fidelidad
@@ -142,9 +150,11 @@ un mockup, pasaremos a hacer el primer testeo con usuarios.
 Este prototipo a mano alzada fue trabajado en  una aplicación llamada Balsamiq que nos da una visión  mas cercana al esquema 
 que queremos ver en nuestro producto final y con ella iteramos nuevamente con nuestros usuarios.
 
-![Baja Fidelidad 1]((https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S01_BF.png))
-![Baja Fidelidad 2](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S02_BF.png))
-![Baja Fidelidad 3]((https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S03_BF.png))
+![Baja Fidelidad 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S01_BF.png)
+
+![Baja Fidelidad 2](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S02_BF.png)
+
+![Baja Fidelidad 3](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S03_BF.png)
 
 
 En este primer prototipo, quisimos que  nuestra pantalla de inicio mostrase el nombre de la aplicación, un menú donde se 
@@ -158,14 +168,15 @@ que buscamos plasmar en nuestra aplicación Web. Con el invision aplicamos la in
 a los usuarios una experiencia mas cercana a lo que obtendrán una ves terminado este proyecto. 
 Las propuestas fueron cambiando según nuestros usuarios iteraban con ellas. Dandole un backgraung diferente, Colocando el boton para acceder a los partidos de la liga en la parte superior derecha entre otros que se iran desarrollando con el paso de las Historias de usuario 
 
-[link de prototype en invision](https://algrismarquez114595.invisionapp.com/public/share/ZW18K0DZVB#/screens/479079190)
-
+[LINK DEL PROTOTIPO DE ALTA FIDELIDAD EN INVISION](https://algrismarquez114595.invisionapp.com/public/share/ZW18K0DZVB#/screens/479079190)
 
 ## HISTORIAS DE USUARIOS
+
 Las historias de usuario conforman la parte central de muchas metodologías de desarrollo ágil, Estas definen lo que se debe construir en el proyecto de software, tienen una prioridad asociada definida por el cliente de manera de indicar cuales son 
 las mas importantes para el resultado final, serán divididas en tareas y su tiempo será estimado por los desarrolladores. Partiendo de este concepto, nuestras historias de usuarios son las siguientes:
 
 **Historia N° 1**
+
 **28 años. Hombre, Yo como jugador frecuente quiero ordenar a los campeones de la A-Z y viceversa.**
 
 “...información de los campeones y tips particulares para el campeón...”
@@ -179,9 +190,13 @@ las mas importantes para el resultado final, serán divididas en tareas y su tie
 *Definición de terminado*
 Al ingresar a la página el usuario podrá encontrarse con todos los campeones de la data LOL. Cumple con la guía de estilos definida. Está en el repositorio de Github. 
 
-![Historia de Usuario 1]((https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/HU01.png))
+![Vista de los Campeones ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/PageCampeones.png)
+
+![Ordenar de la Z-A ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ordenz-a.png)
+
 
 **Historia N° 2**
+
 **22 años. Hombre, Yo como jugador frecuente quiero filtrar la lista de campeones para identificarlos por sus roles o dificultad.**
 
 “..info de los diferentes champios, roles, dificultad y tips generales”
@@ -196,10 +211,15 @@ Al ingresar a la página el usuario puede posicionarse en el menú y seleccionar
 pantalla los campeones según la selección del filtros solicitada. Cumple con la guía de estilos definida. 
 Está en el repositorio de Github. 
 
-![Historia de Usuario 1]((https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/HU02.png))
+![Filtrado por roles ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/filtroroles.png)
+
+![Filtrado por dificultad ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/Filtrodificultad.png)
+
+![Filtros combinados](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/filtroscombinados.png)
 
 
 **Historia N° 3**
+
 **40 años. Mujer, Yo como jugador quisiera seleccionar al jugador de manera individual y ver toda la información sobre el**
 
 “..Ver información detallada el los campeones de manera individual”
@@ -212,91 +232,17 @@ Está en el repositorio de Github.
 **Definición de terminado**
 Al ingresar a la página el usuario puede posicionarse en el campo de búsqueda e introducir el nombre del campeón, se realiza la búsqueda y se desplegara en pantalla con el campeones solicitado. Cumple con la guía de estilos definida. Está en el repositorio de Github.
 
-![Historia de Usuario 1]((https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/HU03.png))
+![Filtros combinados](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/cartadelcampeon.png)
 
 
-#### TESTEO DE USABILIDAD 
+#### TESTEO DE USABILIDAD
 
-PENDIDENTE PARA DESARROLLAR CON LAS 1ERA HISTORIA
+El testeo de usabilidad nos permite detectar oportunidades durante la navegación que contribuyan a que el usuario realice una acción determinada. La aplicacion de la misma en este proyecto en particular nos ayudara a conocer cómo los usuarios interactúan con la aplicacion web, entendiendo sus preferencias, modo de navegacion y perspectiva del usuario con el producto final.
 
-Durante el reto deberás hacer _tests_ de usabilidad con distintos usuarios, y
-en base a los resultados, deberás iterar tus diseños. Cuéntanos
-qué problemas de usabilidad detectaste a través de los _tests_ y cómo los
-mejoraste en tu propuesta final.
+El medio remoto nos limita un poco poder apreciar el seguimiento ocular py determinar las preferencias de nuestros usuarios, identificando la manera en ¿cómo se informa nuestro ususario?, permitiendo identificar qué tipos de estímulos prefiere e identificando los principales problemas de navegación. A falta de esta opción y buscando la manera una mejor documentacion de la investogacion encontramos que existen plugins adicionales que nos ayudan con esta tarea como el *Useberry* que trabaja directamente con Figma. Cabe mencionar que el mismo no pudo ser aplicado a nuestros prototipo de Alta fidelidad por problemas tecnicos sin embargo conocemos el funcionamiento del mismo y valoramos enormemente la informacion adicional que pudo proporcionar a la investigación.
 
- * Feedback de los usuarios
+Para los test de Usabilidad se preparo un Scrip a fin de que cualquier miembro del equipo lo aplicara a los ususarios ya que la disponibilidad Horaria de los mismo era variable. 
 
-PENDIDENTE PARA DEARROLLAR CON LAS 1ERA HISTORIA
+[Link del Modelo del Test de usabilidad](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/Modelo%20test%20usabilidad.pdf)
 
-## OBJETIVOS DE APRENDIZAJE 
-
-El objetivo principal de este proyecto es que, entendiendo las necesidades de
-tus usuarios, aprendas a diseñar y construir una interfaz web donde se pueda
-visualizar y manipular data.
-
-Revisa la lista y reflexiona sobre los objetivos que conseguiste en el
-proyecto anterior. Piensa en eso al decidir tu estrategia de trabajo individual
-y de equipo.
-
-### UX
-
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener _feedback_ e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
-- [ ] Planear y ejecutar _tests_ de usabilidad.
-
-### HTML y CSS
-
-- [ ] Entender y reconocer por qué es importante el HTML semántico.
-- [ ] Identificar y entender tipos de selectores en CSS.
-- [ ] Entender como funciona `flexbox` en CSS.
-- [ ] Construir tu aplicación respetando el diseño planeado (maquetación).
-
-### DOM
-
-- [ ] Entender y reconocer los selectores del DOM (`querySelector` | `querySelectorAll`).
-- [ ] Manejar eventos del DOM. (`addEventListener`)
-- [ ] Manipular dinámicamente el DOM. (`createElement`, `appendchild`, `innerHTML`, `value`)
-
-### Javascript
-
-- [ ] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
-- [ ] Manipular objects (key | value).
-- [ ] Entender el uso de condicionales (`if-else` | `switch`).
-- [ ] Entender el uso de bucles (`for` | `forEach`).
-- [ ] Entender la diferencia entre expression y statements.
-- [ ] Utilizar funciones (`parámetros` | `argumentos` | `valor de retorno`).
-- [ ] Entender la diferencia entre tipos de datos atómicos y estructurados.
-- [ ] Utilizar ES Modules (`import` | `export`).
-
-### Pruebas Unitarias (_testing_)
-- [ ] Testear funciones (funciones puras).
-
-### Git y GitHub
-- [ ] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
-- [ ] Utilizar los repositorios de GitHub (`clone` | `fork` | `gh-pages`).
-- [ ] Colaborar en Github (`pull requests`).
-
-### Buenas prácticas de desarrollo
-- [ ] Organizar y dividir el código en módulos (Modularización).
-- [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
-
-### Soft skills
-- [ ] **Planificación, organización y manejo del tiempo** Organizarse utilizando historias de usuario, haciendo una estimación general de los tiempos que se necesitarán para la realización del proyecto. Conocer las ceremonias y artefactos ágiles (sprint planning, dailys, retrospectiva, tablero al menos, etc) a pesar de que no se utilicen con regularidad.
-
-- [ ] **Trabajo en equipo** Trabajar con otros de forma colaborativa y en base a un objetivo común, entregando ideas para la construcción del proyecto
-
-- [ ] **Autoaprendizaje** Demostrar interés y adquirir nuevos conocimientos autónomamente, estudiando de manera independiente, lo que se traduce, en que cuando es necesario, la estudiante buscará aclarar conceptos y resolver dudas sobre la materia.
-
-- [ ] **Presentaciones** Utilizar ciertas estrategias para hablar en público (tono y ritmo de voz adecuado, contacto visual con el público, interacción con medios de presentación), que permitan asegurar un mediano entendimiento de la audiencia.
-
-- [ ] **Adaptabilidad** Afrontar los cambios inesperados o nuevos desafíos con una actitud positiva, aunque no necesariamente se logre accionar o adaptarse de la mejor manera a los diferentes contextos.
-
-- [ ] **Solución de problemas** Trabajar en la búsqueda y en la elaboración de soluciones alternativas a problemas de mediana complejidad.
-
-- [ ] **Responsabilidad** Demostrar actitud de compromiso, reflejandolo en la entrega de trabajo a tiempo, llegando a la hora acordada y/o avisando cuando no se pueda asistir.
-
-- [ ] **Dar y recibir feedback** Escuchar los comentarios y críticas de los demás de manera respetuosa, y/o comunicar a los demás las opiniones de forma constructiva.
-
-- [ ] **Comunicación eficaz** Comunicar ideas a los demás cuando es necesario, aunque no siempre se fomenten de manera proactiva estas instancias de comunicación.
+[Video 1 Test de usabilidad](https://drive.google.com/file/d/1CQ3u5prWwAn2xiciNAikpw0YIpkPQ1NV/view?usp=sharing)
