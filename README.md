@@ -28,8 +28,7 @@ jugadores en simultaneo en League, que hacen de League of Legends el juego de PC
 del mundo", y recientemente se realizó una **encuesta en Reddit** que culminó en un informe entre 
 otras cosas demográfico sobre estos jugadores, el cual reveló datos muy interesantes.
 
-![Datos de la encuesta Reddit](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/CambiosCss2/src/img/LOLENCUESTA%20.png) 
-
+![Datos de la encuesta Reddit](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/CambiosCss2/src/img/LOLENCUESTA%20.png)
 
 Profundizando un poco más en los detalles,un **75%** de los jugadores tienen menos de **25 años** y 
 el **78%** de ellos comenzaron a jugar antes de la **Season 6 (2016)**, y tienen entre 6 y 7 años 
@@ -58,7 +57,7 @@ de héroes y villanos que tienen una variedad de historias, adonde predomina la 
 que la conforman para mantener el poderío. El juego consta de 3 modos actuales de juego en ejecución:
 **La Grieta del Invocador, El Abismo de los Lamentos y Teamfight Tactics,** por lo que la diversidad de 
 escenarios y personajes nos inspiraron para llamar a nuestra pagina 
-##**”World League of Legends”**
+## **”World League of Legends”**
 
 
 ## PLANIFICACIÓN DEL PROYECTO
@@ -94,6 +93,7 @@ usuarios a quien sera dirigida la aplicación.
 ![Encuesta 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_1.png)
 
 ![Encuesta 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_2.png)
+
 
 ## Resumiendo la data obtenida
 
@@ -167,6 +167,7 @@ Las propuestas fueron cambiando según nuestros usuarios iteraban con ellas. Dan
 ![Filtros combinados]
 
 ## HISTORIAS DE USUARIOS
+
 Las historias de usuario conforman la parte central de muchas metodologías de desarrollo ágil, Estas definen lo que se debe construir en el proyecto de software, tienen una prioridad asociada definida por el cliente de manera de indicar cuales son 
 las mas importantes para el resultado final, serán divididas en tareas y su tiempo será estimado por los desarrolladores. Partiendo de este concepto, nuestras historias de usuarios son las siguientes:
 
@@ -187,6 +188,8 @@ Al ingresar a la página el usuario podrá encontrarse con todos los campeones d
 ![Vista de los Campeones ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/PageCampeones.png)
 
 ![Ordenar de la Z-A ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ordenz-a.png)
+
+
 **Historia N° 2**
 **22 años. Hombre, Yo como jugador frecuente quiero filtrar la lista de campeones para identificarlos por sus roles o dificultad.**
 
@@ -225,12 +228,14 @@ Al ingresar a la página el usuario puede posicionarse en el campo de búsqueda 
 ![Filtros combinados](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/cartadelcampeon.png)
 
 
-#### TESTEO DE USABILIDAD 
+#### TESTEO DE USABILIDAD
 
-El testeo de usabilidad nos permite detectar oportunidades durante la navegación que contribuyan a que el usuario realice una acción determinada. La aplicacion de la misma en este proyecto en particular nos ayudara a conocer cómo los usuarios interactúan con la aplicacion web, entendiendo sus preferencias, modo de navegacion e oersoectiva del usuario con el producto final.
+El testeo de usabilidad nos permite detectar oportunidades durante la navegación que contribuyan a que el usuario realice una acción determinada. La aplicacion de la misma en este proyecto en particular nos ayudara a conocer cómo los usuarios interactúan con la aplicacion web, entendiendo sus preferencias, modo de navegacion y perspectiva del usuario con el producto final.
 
-El medio remoto nos limita un poco poder apreciar el seguimiento ocular para poder determinar las preferencias de nuestros ususarios, identificando la manera en ¿cómo se informa nuestro ususario?, se puede identificar qué tipos de estímulos prefiere, identifique los principales problemas de navegación. A falta de esta opcion y buscando la manera una mejor documentacion de la investogacion encontramos que existen plugins adicionales que nos ayudan con esta tarea como el *Useberry* que trabaja directamente con Figma. Cabe mencionar que el mismo no pudo ser aplicado a nuestros prototipo de Alta fidelidad por problemas tecnicos sin embargo conocemos el funcionamiento del mismo y valoramos enormemente la informacion adicional que pudo proporcionar a la investigacion
+El medio remoto nos limita un poco poder apreciar el seguimiento ocular py determinar las preferencias de nuestros usuarios, identificando la manera en ¿cómo se informa nuestro ususario?, permitiendo identificar qué tipos de estímulos prefiere e identificando los principales problemas de navegación. A falta de esta opción y buscando la manera una mejor documentacion de la investogacion encontramos que existen plugins adicionales que nos ayudan con esta tarea como el *Useberry* que trabaja directamente con Figma. Cabe mencionar que el mismo no pudo ser aplicado a nuestros prototipo de Alta fidelidad por problemas tecnicos sin embargo conocemos el funcionamiento del mismo y valoramos enormemente la informacion adicional que pudo proporcionar a la investigación.
 
-Para los test de Usabilidad se preparo un Scrip a fin de que cualquier miembro del equipo lo desarrollara ya que las disponibilidad Horaria de los mismo era variable
+Para los test de Usabilidad se preparo un Scrip a fin de que cualquier miembro del equipo lo aplicara a los ususarios ya que la disponibilidad Horaria de los mismo era variable. 
 
-[Filtros combinados] (https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/Modelo%20test%20usabilidad.pdf)
+[Link del Modelo del Test de usabilidad](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/Modelo%20test%20usabilidad.pdf)
+
+[Video 1 Test de usabilidad](https://drive.google.com/file/d/1CQ3u5prWwAn2xiciNAikpw0YIpkPQ1NV/view?usp=sharing)
