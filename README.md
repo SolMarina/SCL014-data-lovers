@@ -28,7 +28,7 @@ jugadores en simultaneo en League, que hacen de League of Legends el juego de PC
 del mundo", y recientemente se realizó una **encuesta en Reddit** que culminó en un informe entre 
 otras cosas demográfico sobre estos jugadores, el cual reveló datos muy interesantes.
 
-![Datos de la encuesta Reddit](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/LOLENCUESTA.png)
+![Datos de la encuesta Reddit](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/CambiosCss2/src/img/LOLENCUESTA%20.png)
 
 Profundizando un poco más en los detalles,un **75%** de los jugadores tienen menos de **25 años** y 
 el **78%** de ellos comenzaron a jugar antes de la **Season 6 (2016)**, y tienen entre 6 y 7 años 
@@ -62,7 +62,7 @@ escenarios y personajes nos inspiraron para llamar a nuestra pagina
 
 ## PLANIFICACIÓN DEL PROYECTO
 
-Se trabajo bajo la metodología ágil **Scrum** ya que nos permite la división del trabajo completo en 
+Se trabajo bajo la metodología ágil ya que nos permite la división del trabajo completo en 
 distintos apartados o bloques, que se abordan en periodos corto de tiempo desde 1 hasta 3 semanas como es 
 el caso de este proyecto). Seleccionamos esta metodología ya que fomenta la motivación y el compromiso del 
 equipo, permitiendo una mayor productividad así como el desglose del trabajo favorece a que las necesidades
@@ -80,6 +80,7 @@ planificar los objetivos o tareas para ese día, al finalizar la jornada se veri
 en un 100% o no permitiendo entonces tener un punto de partida en el siguiente daily.
 
 ![Trello del proyecto](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Trello.png)
+
 [link del trello](https://trello.com/b/wwR1sXV1/proyecto-world-lol)
 
 
@@ -90,16 +91,18 @@ predomina la comunicación en modo Remoto. A fin de determinar los requerimiento
 usuarios a quien sera dirigida la aplicación.
 
 ![Encuesta 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_1.png)
+
 ![Encuesta 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_2.png)
 
 ## Resumiendo la data obtenida
 
-* ¿Quiénes son los principales usuarios de productos?
+* ¿Quiénes son los principales usuarios de
 Nuestros Usuarios son jugadores entre 20 y 40 años, que usan el juego de manera periódica y buscan subir de niveles
  en cada encuentro, les motiva mucho las competencia internacional o juegos de la liga y quieren estar actualizados 
  constantemente las mejoras de sus campeones favoritos
 
 ![Edad](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Edad.png)
+
 ![Frecuencia](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Frecuencia.png)
 
 * ¿Cuáles son los objetivos de nuestros estos usuarios para con el producto?
@@ -112,8 +115,9 @@ Visualizar de manera independiente a su jugador favorito mostrandole datos mas r
 rol, dificultad, reseña del personaje entre otros
 Agrupar a los campeones por roles, dificultad, magia, ataque entre otros
 
-![Roles](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Roles.png)
-![Dificultad](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Dificultad.png)
+![Roles](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/roles.png)
+
+![Dificultad](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/CambiosCss2/src/img/TarjetaCampeon.png)
 
 Con respeto a la grafica, los usuarios indicaron que fuera lo mas similar a la del juego en si, donde predominan los tonos oscuros de azul, morado y negro
 
@@ -129,9 +133,11 @@ Esta representación es solo el inicio, la misma puede sufrir cambios una ves qu
 
 * Bocetos a Mano alzada
 * 
-![Mano alzada 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Manoalzada1.png)
-![Mano alzada 2](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Manoalzada2.png)
-![Mano alzada 3](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Manoalzada3png)
+![Mano alzada 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/ManoAlzada1.png)
+
+![Mano alzada 2](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/ManoAlzada2.png)
+
+![Mano alzada 3](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/ManoAlzada3png)
 
 
 * Prototipo de baja fidelidad
@@ -141,7 +147,9 @@ Este prototipo a mano alzada fue trabajado en  una aplicación llamada Balsamiq 
 que queremos ver en nuestro producto final y con ella iteramos nuevamente con nuestros usuarios.
 
 ![Baja Fidelidad 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S01_BF.png)
+
 ![Baja Fidelidad 2](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S02_BF.png)
+
 ![Baja Fidelidad 3](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S03_BF.png)
 
 
@@ -177,8 +185,9 @@ las mas importantes para el resultado final, serán divididas en tareas y su tie
 *Definición de terminado*
 Al ingresar a la página el usuario podrá encontrarse con todos los campeones de la data LOL. Cumple con la guía de estilos definida. Está en el repositorio de Github. 
 
-![Historia de Usuario 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/HU01.png)
+![Vista de los Campeones ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/CambiosCss2/src/img/PageCampeones.png)
 
+![Ordenar de la Z-A ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ordenaz-a.png)
 **Historia N° 2**
 **22 años. Hombre, Yo como jugador frecuente quiero filtrar la lista de campeones para identificarlos por sus roles o dificultad.**
 
@@ -194,7 +203,11 @@ Al ingresar a la página el usuario puede posicionarse en el menú y seleccionar
 pantalla los campeones según la selección del filtros solicitada. Cumple con la guía de estilos definida. 
 Está en el repositorio de Github. 
 
-![Historia de Usuario 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/HU02.png)
+![Filtrado por roles ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/filtroroles.png)
+
+![Filtrado por dificultad ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/filtrodificultad.png)
+
+![Filtros combinados](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/filtroscombinados.png)
 
 
 **Historia N° 3**
@@ -210,19 +223,14 @@ Está en el repositorio de Github.
 **Definición de terminado**
 Al ingresar a la página el usuario puede posicionarse en el campo de búsqueda e introducir el nombre del campeón, se realiza la búsqueda y se desplegara en pantalla con el campeones solicitado. Cumple con la guía de estilos definida. Está en el repositorio de Github.
 
-![Historia de Usuario 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/HU03.png)
+![Filtros combinados](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/cartadelcampeon.png)
 
 
 #### TESTEO DE USABILIDAD 
 
-PENDIDENTE PARA DESARROLLAR CON LAS 1ERA HISTORIA
+El testeo de usabilidad nos permite detectar oportunidades durante la navegación que contribuyan a que el usuario realice una acción determinada. La aplicacion de la misma en este proyecto en particular nos ayudara a conocer cómo los usuarios interactúan con la aplicacion web.
 
-Durante el reto deberás hacer _tests_ de usabilidad con distintos usuarios, y
-en base a los resultados, deberás iterar tus diseños. Cuéntanos
-qué problemas de usabilidad detectaste a través de los _tests_ y cómo los
-mejoraste en tu propuesta final.
+el medio remoto nos limita un poco poder apreciar el seguimiento ocular para poder determinar las preferencias de nuestros ususarios, sin embargo somos consiente que esta herramienta del testeo nos ayuda a entender los procesos de toma de decisión.
 
- * Feedback de los usuarios
 
-PENDIDENTE PARA DEARROLLAR CON LAS 1ERA HISTORIA
-
+Conocer cómo se informa, identificar qué tipos de estímulos prefiere, identifique los principales problemas de navegación, diseño y percepción directamente desde la perspectiva de sus usuarios. Sin embargo estamos al tanto de que existen plugins adicionales que nos ayudan con esta tarea como el *Useberry* que nos da un mapa de calor de la interaccion del usuario con la misma, todo esto nos ayuda a:
