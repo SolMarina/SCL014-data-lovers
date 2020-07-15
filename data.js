@@ -1,5 +1,4 @@
 import lol from './data/lol/lol.js';
-
 const dataLol = lol.data
 
 const datos = {
