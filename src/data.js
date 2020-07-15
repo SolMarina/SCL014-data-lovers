@@ -14,21 +14,31 @@ const datos = {
                 }
                 championname.push(card);
             }
-            //console.log(championname)
-            return championname;
-        },
 
-<<<<<<< HEAD
+            championname.push(card);
+        }
+        return championname;
+    },
+//Funcion para ordena A-Z y de la Z-A con sort
+
+
+
         az: (a, b) => {
             return ((a.name < b.name) ? -1 : ((a.name > b.name) ? 1 : 0));
         },
+
+
+    za: (a, b) => {
+        return ((b.name < a.name) ? -1 : ((b.name > a.name) ? 1 : 0));
+    },
+//Funcion para filtrar por roles
 
         za: (a, b) => {
             return ((b.name < a.name) ? -1 : ((b.name > a.name) ? 1 : 0));
         },
 
         filterbyRole: (list, rolevalue) => {
-=======
+
     filterbyRole: (list, rolevalue) => {
         
         if (rolevalue == 'Todos los Roles') {
@@ -37,7 +47,7 @@ const datos = {
             return list.filter(champ => champ.tags.includes(rolevalue));
         }
     },
-
+//Funcion para filtrar por dificultad
     filterbyDificult: (list, dificultvalue) =>{
     let dificultlist = [];
     if (dificultvalue == 'Todas las Dificultades') {
@@ -51,6 +61,8 @@ const datos = {
     }
     return dificultlist;
 },
+//Funcion para ordena A-Z y de la Z-A con sort
+
 sortAlfabeticaly: (list, alfabeticvalue,) => {
     
 if (alfabeticvalue == 'Ordenar: A-Z') {
@@ -68,7 +80,7 @@ givemeThechampion:(championName1)=>{
         }
     }
 },
->>>>>>> b7608356e7d14a3ba136d13b3432414d77722afb
+
 
             if (rolevalue == "Todos los Roles") {
                 return list;

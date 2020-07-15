@@ -30,24 +30,23 @@ const alldificult = document.getElementById('all');
 //Elemento para imprimir cajitas
 const dashboard = document.getElementById('dashboard');
 
+//Funcion para unificar los filtros
 function joinedFilter() {
     
     let alfabeticvalue = orderlabel.innerHTML;
     let rolevalue = roleOrder.innerHTML;
     let dificultvalue = dificultlabel.innerHTML;
 
-    let alfabeticlist = [];
-    alfabeticlist = datos.sortAlfabeticaly(initialList, alfabeticvalue);
+    let alfabeticlist = datos.sortAlfabeticaly(initialList, alfabeticvalue);
 
-    let rolelist = [];
-    rolelist = datos.filterbyRole(alfabeticlist, rolevalue);
+    let rolelist = datos.filterbyRole(alfabeticlist, rolevalue);
     
-    let dificultList = [];
-    dificultList = datos.filterbyDificult(rolelist, dificultvalue);
+    let dificultList = datos.filterbyDificult(rolelist, dificultvalue);
+
     fillDashboard(dificultList);
 }
 
-
+//Funcion para el buscador
 buscardor.addEventListener('keyup', findName);
 function findName() {
     let finalList = [];

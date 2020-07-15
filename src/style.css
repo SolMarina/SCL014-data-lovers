@@ -1,3 +1,17 @@
+*{
+margin: 0px ;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+
+
+@font-face {
+    font-family: lolFont;
+    src: url("img/Friz Quadrata Regular.ttf");
+}
+
 body {
     background-image: url();
     background-color: rgb(1, 10, 19);
@@ -5,42 +19,55 @@ body {
     position: center;
 }
 
+.father1{
+display: flex;
+flex-flow: column nowrap;
+}
+
 .header {
-    background-image: url(img/Sheader.png);
-    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-image: url(img/Sheader.png);
+    height: 150px
+}
+.menu {
+    display: flex;
+    flex-flow: row nowrap;
     align-items: center;
     height: 150px;
 }
 
-.logo {
-    position: center;
-    padding: 5px 5px 5px 5px;
-    width: 7%;
-    height: 55%
+.logo1 {
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 100px;
 }
-
-h1 {
+.title{
+    flex: 8 1 auto;
+    flex-flow: row nowrap;
+    align-items: center;
     font-family: lolFont;
     color: rgb(227, 186, 61);
-    font-size: 250%;
+    height: 100px;
+    font-size: 130%;
+
+}
+.logo1 img{
+    height: 100%
 }
 
-@font-face {
-    font-family: lolFont;
-    src: url("img/Friz Quadrata Regular.ttf");
+.title h1{
+    margin-top: 20px;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
+
 
 #navbar {
-    margin: center;
     display: flex;
-    width: 100%;
+    flex-flow: row nowrap;
     font-family: lolFont;
     background-color: rgb(2, 7, 13);
     color: rgb(227, 186, 61);
@@ -55,16 +82,22 @@ h1 {
     transition: width 0.4s ease-in-out;
 }
 
-ul,
-ol {
+#nav{
+    display: flex;
+    flex-flow: row nowrap;
+}
+ul,ol {
+    flex: 1 1 auto;
     list-style: none;
 }
 
 .nav>li {
+    flex: 1 1 auto;
     float: left;
 }
 
 .nav>input {
+    flex: 1 1 auto;
     margin: 5px;
     padding: 3px 12px;
     font-family: lolFont;
@@ -72,6 +105,7 @@ ol {
 }
 
 .nav li a {
+    flex: 1 1 auto;
     background-color: rgb(2, 7, 13);
     color: rgb(227, 186, 61);
     text-decoration: none;
@@ -84,6 +118,7 @@ ol {
 }
 
 .nav li ul {
+    flex: 1 1 auto;
     display: none;
     position: absolute;
     min-width: 140px;
@@ -117,6 +152,12 @@ ol {
     color: rgb(227, 186, 61);
     font-family: lolFont;
 }
+.abuelo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
 
 .padre {
     background-image: url();
@@ -133,12 +174,6 @@ ol {
     border-radius: 10px;
 }
 
-.abuelo {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 a {
     text-decoration: none;
@@ -217,6 +252,7 @@ a {
 }
 
 .back {
+    visibility: hidden;
     width: 7%;
     height: 55%;
     filter: invert(78%) sepia(61%) saturate(574%) hue-rotate(348deg) brightness(99%) contrast(80%);
@@ -229,4 +265,109 @@ a {
     padding: 10px 12px;
     display: block;
     text-decoration: none;
+}
+@media (min-width: 320px) and (max-width: 568px) {
+    .title{
+        flex: 8 1 auto;
+        flex-flow: row nowrap;
+        align-items: center;
+        font-family: lolFont;
+        color: rgb(227, 186, 61);
+        height: 100px;
+        font-size: 70%;
+    
+    }
+    .logo1 img{
+        height: 80%
+    }
+
+    .header {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        background-image: url(img/Sheader.png);
+        height: 100px
+    }
+    .menu {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        height: 100px;
+    }
+    #buscador {
+        flex: 1 1 auto;
+        font-family: lolFont;
+        color: rgb(227, 186, 61);
+        background-color: rgb(2, 7, 13);
+        font-size: 70%;
+        width: 15%;
+        border: 1px solid #555;
+        transition: width 0.4s ease-in-out;
+    }
+
+ul,ol {
+    
+    list-style: none;
+    font-size: 80%;
+}
+
+.nav>li {
+
+    float: left;
+    font-size: 80%;
+}
+
+.nav>input {
+
+    margin: 5px;
+    padding: 3px 6px;
+    font-family: lolFont;
+    float: left;
+    font-size: 80%;
+}
+
+.nav li a {
+   
+    background-color: rgb(2, 7, 13);
+    color: rgb(227, 186, 61);
+    text-decoration: none;
+    padding: 5px 6px;
+    display: block;
+    font-size: 80%;
+}
+
+
+
+.nav li ul {
+    
+    display: none;
+    position: absolute;
+    min-width: 70px;
+    font-size: 80%;
+}
+
+.nav li:hover>ul {
+    display: block;
+    font-size: 80%;
+}
+
+.nav li ul li {
+    position: relative;
+    font-size: 80%;
+}
+
+.nav li ul li ul {
+    right: -70px;
+    top: 0px;
+    font-size: 80%;
+}
+#buttonliga {
+    background-color: rgb(2, 7, 13);
+    color: rgb(227, 186, 61);
+    text-decoration: none;
+    padding: 5px 6px;
+    display: block;
+    text-decoration: none;
+    font-size: 70%;
+}
 }
