@@ -195,9 +195,8 @@ a {
 #principal {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: left;
     width: 30%;
-    height: 100%;
+    height: 125%;
     margin-top: 145px;
     margin-right: 20px;
     margin-bottom: 0;
@@ -210,19 +209,15 @@ a {
 #name1 {
     text-align: center ;
     align-content: center;
+    margin-top: 1.3em;
     color: rgb(227, 186, 61);
     font-family: lolFont;
     font-size: 400%;
     font-weight: bolder;
 }
 
-#info1 {
-    text-align: center;
-    color: rgb(227, 186, 61);
-    font-family: lolFont;
-}
-
 #title1 {
+    margin-top: 1.3em;
     text-align: center;
     align-content: center;
     color: rgb(227, 186, 61);
@@ -232,12 +227,20 @@ a {
 }
 
 #blurb1 {
+    margin-top: 1em;
     text-align: center;
     align-content: center;
     color: #e3ba3d;
     font-family: lolFont;
-    font-size: 100%;
+    font-size: 120%;
     font-weight: bold;
+}
+
+#info1 {
+    margin-top: 1.2em;
+    text-align: center;
+    color: rgb(227, 186, 61);
+    font-family: lolFont;
 }
 
 .texto-encima {
@@ -386,7 +389,7 @@ ul,ol {
         text-align: center;
         margin-left:7%;
         width:80%;
-        height: 40%;
+        height: 50%;
         margin-top: 90%;
         background: linear-gradient(200deg, #000107, #eb0fd800);
     }
@@ -395,6 +398,7 @@ ul,ol {
         flex: 1 1;
         display: flex; 
         text-align: center ;
+        margin-top: 1em;
         color: rgb(227, 186, 61);
         font-family: lolFont;
         font-size: 100%;
@@ -433,4 +437,58 @@ ul,ol {
         font-family: lolFont;
         font-size:50% ;
     }
+}
+@media (min-width: 800px) and (max-width: 1200px){
+    #principal {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 30%;
+        height: 55%;
+        margin-top: 145px;
+        margin-right: 20px;
+        margin-bottom: 0;
+        margin-left: -5px;
+        background: linear-gradient(200deg, #000107, #eb0fd800);
+        z-index: 1;
+        order: 4;
+    }
+    
+    #name1 {
+        text-align: center ;
+        align-content: center;
+        margin-top: 1em;
+        color: rgb(227, 186, 61);
+        font-family: lolFont;
+        font-size: 250%;
+        font-weight: bolder;
+    }
+    
+    #title1 {
+        margin-top: 1em;
+        text-align: center;
+        align-content: center;
+        color: rgb(227, 186, 61);
+        font-family: lolFont;
+        font-size: 150%;
+        font-weight: bold;
+    }
+    
+    #blurb1 {
+        margin-top: 1em;
+        text-align: center;
+        align-content: center;
+        color: #e3ba3d;
+        font-family: lolFont;
+        font-size: 80%;
+        font-weight: bold;
+    }
+    
+    #info1 {
+        font-size: 60%;
+        margin-top: 1.2em;
+        text-align: center;
+        color: rgb(227, 186, 61);
+        font-family: lolFont;
+    }
+    
 }
