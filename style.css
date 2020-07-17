@@ -11,10 +11,11 @@ box-sizing: border-box;
 }
 
 body {
-    background-image: url();
     background-color: rgb(1, 10, 19);
     background: linear-gradient(200deg, rgb(1, 10, 19), rgb(2, 49, 69));
-    position: center;
+    background-size: cover;
+    background-position:center;
+    
 }
 
 .father1{
@@ -227,13 +228,15 @@ a {
 }
 
 #blurb1 {
-    margin-top: 1em;
+    margin-top: 0.5em;
     text-align: center;
     align-content: center;
     color: #e3ba3d;
     font-family: lolFont;
     font-size: 120%;
     font-weight: bold;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 #info1 {

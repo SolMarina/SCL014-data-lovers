@@ -13,7 +13,6 @@ const datos = {
             }
             championname.push(card);
         }
-        //console.log(championname)
         return championname;
     },
 
