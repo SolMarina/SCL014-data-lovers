@@ -52,7 +52,6 @@ function findName() {
     let finalList = [];
     let stringName = buscardor.value;
     finalList = initialList.filter(champ => champ.name.toLowerCase().includes(stringName.toLowerCase()));
-    console.log(finalList);
     fillDashboard(finalList);
 }
 
@@ -137,21 +136,23 @@ function dificultfilterEasy() {
     joinedFilter();
 }
 
-
+//Funcion para limpiar el Dashboard
 function clearDashboard() {
+    
     while (dashboard.firstChild) {
         dashboard.removeChild(dashboard.firstChild);
     }
 }
 
+//Funcion para imprimir cajitas
 function fillDashboard(desiredList) {
     clearDashboard();
     desiredList.forEach(element => {
 
-        let div = document.createElement('a');
-        div.className = 'tarjeta';
-        div.id = element.name;
-        div.href = 'vista.html?'+element.name;  
+        let box = document.createElement('a');
+        box.className = 'tarjeta';
+        box.id = element.name;
+        box.href = 'vista.html?'+element.name;  
 
         let img = document.createElement('img');
         img.src = element.image;
@@ -159,35 +160,16 @@ function fillDashboard(desiredList) {
         let photoname = document.createElement('h5');
         photoname.innerHTML = element.name;
 
-        div.appendChild(img);
-        div.appendChild(photoname);
-        dashboard.appendChild(div);
+        box.appendChild(img);
+        box.appendChild(photoname);
+        dashboard.appendChild(box);
 
     })
 }
 
-//<a href="vista.html?name=akali">link text</a>
+//Funcion para que aparezcan las cajitas al cargar la pagina
 window.onload = function allChamps() {
 
-    initialList.forEach(element => {
+    fillDashboard(initialList);
 
-        let div = document.createElement('a');
-        div.className = 'tarjeta';
-        div.id = element.name;
-        div.href = 'vista.html?'+element.name;  
-  
-        
-
-        let img = document.createElement('img');
-        img.src = element.image;
-        img
-
-        let photoname = document.createElement('h5');
-        photoname.innerHTML = element.name;
-
-        div.appendChild(img);
-        div.appendChild(photoname);
-        dashboard.appendChild(div);
-
-    });
 }

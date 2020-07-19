@@ -239,10 +239,12 @@ Al ingresar a la página el usuario puede posicionarse en el campo de búsqueda 
 
 El testeo de usabilidad nos permite detectar oportunidades durante la navegación que contribuyan a que el usuario realice una acción determinada. La aplicacion de la misma en este proyecto en particular nos ayudara a conocer cómo los usuarios interactúan con la aplicacion web, entendiendo sus preferencias, modo de navegacion y perspectiva del usuario con el producto final.
 
-El medio remoto nos limita un poco poder apreciar el seguimiento ocular py determinar las preferencias de nuestros usuarios, identificando la manera en ¿cómo se informa nuestro ususario?, permitiendo identificar qué tipos de estímulos prefiere e identificando los principales problemas de navegación. A falta de esta opción y buscando la manera una mejor documentacion de la investogacion encontramos que existen plugins adicionales que nos ayudan con esta tarea como el *Useberry* que trabaja directamente con Figma. Cabe mencionar que el mismo no pudo ser aplicado a nuestros prototipo de Alta fidelidad por problemas tecnicos sin embargo conocemos el funcionamiento del mismo y valoramos enormemente la informacion adicional que pudo proporcionar a la investigación.
+El medio remoto nos limita un poco poder apreciar el seguimiento ocular y determinar las preferencias de nuestros usuarios, identificando la manera en ¿cómo se informa nuestro ususario?, permitiendo identificar qué tipos de estímulos prefiere e identificando los principales problemas de navegación. A falta de esta opción y buscando la manera una mejor documentacion de la investogacion encontramos que existen plugins adicionales que nos ayudan con esta tarea como el *Useberry* que trabaja directamente con Figma. Cabe mencionar que el mismo no pudo ser aplicado a nuestros prototipo de Alta fidelidad por problemas tecnicos sin embargo conocemos el funcionamiento del mismo y valoramos enormemente la informacion adicional que pudo proporcionar a la investigación.
 
 Para los test de Usabilidad se preparo un Scrip a fin de que cualquier miembro del equipo lo aplicara a los ususarios ya que la disponibilidad Horaria de los mismo era variable. 
 
 [Link del Modelo del Test de usabilidad](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/Modelo%20test%20usabilidad.pdf)
 
 [Video 1 Test de usabilidad](https://drive.google.com/file/d/1CQ3u5prWwAn2xiciNAikpw0YIpkPQ1NV/view?usp=sharing)
+
+Link del Proyecto: https://algrismarquez.github.io/SCL014-data-lovers/index.html
