@@ -14,7 +14,9 @@ window.onload = function cambiar() {
 
     
     const hero = datos.givemeThechampion(champname);
-            pic.src = hero.splash;
+
+            let number = Math.floor(Math.random() * Math.floor(4));
+            pic.src =  hero.splash.replace("0.jpg", number+".jpg");
             labelName.innerText = hero.name;
             labelTitle.innerText = hero.title;
             labelblurb.innerHTML = hero.blurb;

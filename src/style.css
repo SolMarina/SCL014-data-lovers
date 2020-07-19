@@ -238,6 +238,20 @@ a {
     padding-left: 1em;
     padding-right: 1em;
 }
+#btn2{
+    margin-left: 50px;
+    margin-right: 50px;
+    flex: 0 0 1em;
+    margin-top: 1.2em;
+    font-family: lolFont;
+    font-size: 25px;
+    color:rgb(227, 186, 61);;
+    background-color: rgb(2, 49, 69);
+    border-radius: 6px;
+    color: rgb(227, 186, 61);
+    font-family: lolFont;
+    border: 2px solid #0016b0;
+}
 
 #info1 {
     margin-top: 1.2em;
@@ -267,6 +281,7 @@ a {
     display: block;
     text-decoration: none;
 }
+
 @media (min-width: 320px) and (max-width: 568px) {
     .title{
         flex: 8 1 auto;
@@ -408,7 +423,7 @@ ul,ol {
         font-weight: bolder;
     }
     #title1 {
-        flex: 2 1;
+        flex: 1 1;
         display: flex;
         text-align: center;
         align-content: center;
@@ -435,10 +450,24 @@ ul,ol {
         text-align: center;
         align-content: center;
         width: 30%;
-        height:10%;
+        height:5%;
         color: rgb(227, 186, 61);
         font-family: lolFont;
         font-size:50% ;
+    }
+    #btn2{
+        flex: 1 1;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 2em;
+        font-family: lolFont;
+        font-size: 20px;
+        color:rgb(227, 186, 61);;
+        background-color: rgb(2, 49, 69);
+        border-radius: 6px;
+        color: rgb(227, 186, 61);
+        font-family: lolFont;
+        border: 2px solid #0016b0;
     }
 }
 @media (min-width: 800px) and (max-width: 1200px){
