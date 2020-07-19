@@ -14,8 +14,6 @@ window.onload = function cambiar() {
 
     
     const hero = datos.givemeThechampion(champname);
-            const back = document.getElementById('arrow');
-            back.style.visibility = 'visible';
             pic.src = hero.splash;
             labelName.innerText = hero.name;
             labelTitle.innerText = hero.title;
@@ -25,4 +23,9 @@ window.onload = function cambiar() {
             const mstats = '<br><h2>Magic: '+hero.info.magic+'</h2>';
             const difstats = '<br><h2>Difficulty: '+hero.info.difficulty+'</h2>';
             labelinfo.innerHTML = astats + dstats + mstats + difstats ;
+
+//Flecha para retornar a la primera pagina
+            const back = document.getElementById('arrow');
+            back.style.visibility = 'visible';
+
 }
