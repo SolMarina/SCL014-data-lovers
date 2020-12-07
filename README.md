@@ -1,8 +1,7 @@
-# Data Lovers
-![Link](https://solmarina.github.io/SCL014-data-lovers/)
+# Data Lovers 
 
 # World League of legends
-
+##### [Link para pagina web ](https://solmarina.github.io/SCL014-data-lovers/)
 * A. Antecedentes
 * B. Nombre del Juego
 * C. Planificación del proyecto
