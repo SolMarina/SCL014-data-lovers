@@ -83,7 +83,7 @@ Los spring serán trabajados en periodos de 1 semana, pudiéndose prolongar si f
 planificar los objetivos o tareas para ese día, al finalizar la jornada se verifica si las mismas fueron alcanzadas 
 en un 100% o no permitiendo entonces tener un punto de partida en el siguiente daily.
 
-<img src="src\img\trello.png" tittle= 'Datos de la encuesta Reddit'/>
+<img src="src\img\trello.png" tittle='Datos de la encuesta Reddit'/>
 
 [link del trello](https://trello.com/b/wwR1sXV1/proyecto-world-lol)
 
@@ -105,9 +105,9 @@ Nuestros Usuarios son jugadores entre 20 y 40 años, que usan el juego de manera
  en cada encuentro, les motiva mucho las competencia internacional o juegos de la liga y quieren estar actualizados 
  constantemente las mejoras de sus campeones favoritos
 
-<img src="src\img\edad.png" tittle= 'Edad'/>
+<img src="src\img\edad22.png" tittle='Edad'/>
 
-<img src="src\img\frecuencia.png" tittle= 'Frecuencia'/>
+<img src="src\img\frecuencia12.png" tittle='Frecuencia'/>
 
 * ¿Cuáles son los objetivos de nuestros estos usuarios para con el producto?
 Mantenerse actualizados a los jugadores frecuentes con respecto a las mejoras de sus campeones y los eventos internacionales
@@ -119,7 +119,7 @@ Visualizar de manera independiente a su jugador favorito mostrandole datos mas r
 rol, dificultad, reseña del personaje entre otros
 Agrupar a los campeones por roles, dificultad, magia, ataque entre otros
 
-<img src="src\img\ordenalfabetico.png" tittle= 'Orden Alfabetico'/>
+<img src="src\img\ordenalfabetico12.png" tittle= 'Orden Alfabetico'/>
 
 <img src="src\img\encuestaroles.png" tittle= 'Aspectos Importantes'/>
 
@@ -145,7 +145,7 @@ que queremos ver en nuestro producto final y con ella iteramos nuevamente con nu
 
 <img src="src\img\S01_BF.png" tittle= 'Baja Fidelidad 1'/>
 <img src="src\img\S02_BF.png" tittle= 'Baja Fidelidad 2'/>
-<img src="src\img\Sheader.png" tittle= 'Baja Fidelidad 3'/>
+<img src="src\img\S03_BF.png" tittle= 'Baja Fidelidad 3'/>
 
 En este primer prototipo, quisimos que  nuestra pantalla de inicio mostrase el nombre de la aplicación, un menú donde se 
 muestran las opciones para la búsqueda, filtrado y orden de los datos. En Body mostraremos a los campeones en tarjetas pequeñas con solo su imagen y nombre. Para mostrar los datos individuales se hará mediante una tarjeta o ventana modal que desplegara 
