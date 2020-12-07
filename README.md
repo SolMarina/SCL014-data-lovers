@@ -83,7 +83,7 @@ Los spring serán trabajados en periodos de 1 semana, pudiéndose prolongar si f
 planificar los objetivos o tareas para ese día, al finalizar la jornada se verifica si las mismas fueron alcanzadas 
 en un 100% o no permitiendo entonces tener un punto de partida en el siguiente daily.
 
-<img src="src\img\trello.png" tittle= 'Datos de la encuesta Reddit'/>
+<img src="src\img\trello.png" tittle='Datos de la encuesta Reddit'/>
 
 [link del trello](https://trello.com/b/wwR1sXV1/proyecto-world-lol)
 
@@ -105,9 +105,9 @@ Nuestros Usuarios son jugadores entre 20 y 40 años, que usan el juego de manera
  en cada encuentro, les motiva mucho las competencia internacional o juegos de la liga y quieren estar actualizados 
  constantemente las mejoras de sus campeones favoritos
 
-<img src="src\img\edad.png" tittle= 'Edad'/>
+<img src="src\img\edad.png" tittle='Edad'/>
 
-<img src="src\img\frecuencia.png" tittle= 'Frecuencia'/>
+<img src="src\img\frecuencia.png" tittle='Frecuencia'/>
 
 * ¿Cuáles son los objetivos de nuestros estos usuarios para con el producto?
 Mantenerse actualizados a los jugadores frecuentes con respecto a las mejoras de sus campeones y los eventos internacionales
