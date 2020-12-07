@@ -83,10 +83,7 @@ Los spring serán trabajados en periodos de 1 semana, pudiéndose prolongar si f
 planificar los objetivos o tareas para ese día, al finalizar la jornada se verifica si las mismas fueron alcanzadas 
 en un 100% o no permitiendo entonces tener un punto de partida en el siguiente daily.
 
-<img src="src\img\trello.png" tittle='Datos de la encuesta Reddit'/>
-
-[link del trello](https://trello.com/b/wwR1sXV1/proyecto-world-lol)
-
+<img src="src\img\trello22.png" tittle='Datos de la encuesta Reddit'/>
 
 ## RECOLECTANDO LA INFORMACIÓN
 
