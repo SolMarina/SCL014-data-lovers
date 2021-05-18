@@ -11,7 +11,7 @@ box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(1, 10, 19);
+    background-color: rgb(14, 19, 1);
     background: linear-gradient(200deg, rgb(1, 10, 19), rgb(2, 49, 69));
     background-size: cover;
     background-position:center;

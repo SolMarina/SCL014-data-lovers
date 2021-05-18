@@ -1,8 +1,7 @@
-# Data Lovers
-https://solmarina.github.io/SCL014-data-lovers/
+# Data Lovers 
 
 # World League of legends
-
+##### [Link para pagina web ](https://solmarina.github.io/SCL014-data-lovers/)
 * A. Antecedentes
 * B. Nombre del Juego
 * C. Planificación del proyecto
@@ -29,7 +28,8 @@ jugadores en simultaneo en League, que hacen de League of Legends el juego de PC
 del mundo", y recientemente se realizó una **encuesta en Reddit** que culminó en un informe entre 
 otras cosas demográfico sobre estos jugadores, el cual reveló datos muy interesantes.
 
-![Datos de la encuesta Reddit](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/CambiosCss2/src/img/LOLENCUESTA%20.png)
+<img src="src\img\lolencuesta.png" tittle= 'Datos de la encuesta Reddit'/>
+
 
 [Fuente de la información](https://bolavip.com/gamer/Encuesta-revela-que-el-71-de-los-jugadores-de-League-of-Legends-estan-solteros-20200213-0047.html)
 
@@ -83,10 +83,7 @@ Los spring serán trabajados en periodos de 1 semana, pudiéndose prolongar si f
 planificar los objetivos o tareas para ese día, al finalizar la jornada se verifica si las mismas fueron alcanzadas 
 en un 100% o no permitiendo entonces tener un punto de partida en el siguiente daily.
 
-![Trello del proyecto](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Trello.png)
-
-[link del trello](https://trello.com/b/wwR1sXV1/proyecto-world-lol)
-
+<img src="src\img\trello22.png" tittle='Datos de la encuesta Reddit'/>
 
 ## RECOLECTANDO LA INFORMACIÓN
 
@@ -94,9 +91,8 @@ Se elaboro un formulario para poder hacer el testeo inicial del proyecto debido 
 predomina la comunicación en modo Remoto. A fin de determinar los requerimientos de nuestro target o  grupo de 
 usuarios a quien sera dirigida la aplicación.
 
-![Encuesta 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_1.png)
-
-![Encuesta 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Encuesta_2.png)
+<img src="src\img\encuesta1.png" tittle= 'Formulario'/>
+<img src="src\img\encuesta2.png" tittle= 'Formulario'/>
 
 
 ## Resumiendo la data obtenida
@@ -106,9 +102,9 @@ Nuestros Usuarios son jugadores entre 20 y 40 años, que usan el juego de manera
  en cada encuentro, les motiva mucho las competencia internacional o juegos de la liga y quieren estar actualizados 
  constantemente las mejoras de sus campeones favoritos
 
-![Edad](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Edad.png)
+<img src="src\img\edad22.png" tittle='Edad'/>
 
-![Frecuencia](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/Frecuencia.png)
+<img src="src\img\frecuencia12.png" tittle='Frecuencia'/>
 
 * ¿Cuáles son los objetivos de nuestros estos usuarios para con el producto?
 Mantenerse actualizados a los jugadores frecuentes con respecto a las mejoras de sus campeones y los eventos internacionales
@@ -120,14 +116,11 @@ Visualizar de manera independiente a su jugador favorito mostrandole datos mas r
 rol, dificultad, reseña del personaje entre otros
 Agrupar a los campeones por roles, dificultad, magia, ataque entre otros
 
-![Orden Alfabético](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/OrdenAlfabetico.png)
+<img src="src\img\ordenalfabetico12.png" tittle= 'Orden Alfabetico'/>
 
-![Dificultad](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/CambiosCss2/src/img/TarjetaCampeon.png)
+<img src="src\img\encuestaroles.png" tittle= 'Aspectos Importantes'/>
 
 Con respeto a la grafica, los usuarios indicaron que fuera lo mas similar a la del juego en si, donde predominan los tonos oscuros de azul, morado y negro
-
-imagen de la guia de estilos
-
 
 ## DISEÑANDO IDEAS SOBRE LA INTERFAZ
 
@@ -137,13 +130,9 @@ Esta representación es solo el inicio, la misma puede sufrir cambios una ves qu
 
 
 * Bocetos a Mano alzada
-  
-![Mano alzada 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ManoAlzada1.jpeg)
-
-![Mano alzada 2](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ManoAlzada2.jpeg)
-
-![Mano alzada 3](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ManoAlzada3.jpeg)
-
+ <img src="src\img\ManoAlzada1.jpeg" tittle= 'sketch1'/>
+ <img src="src\img\ManoAlzada2.jpeg" tittle= 'sketch2'/>
+<img src="src\img\ManoAlzada3.jpeg" tittle= 'sketch3'/>
 
 * Prototipo de baja fidelidad
 Una vez realizado nuestros sketches, pasamos a plasmarlo en la aplicación invision para digitalizar nuestro wireframe y diseñar 
@@ -151,12 +140,9 @@ un mockup, pasaremos a hacer el primer testeo con usuarios.
 Este prototipo a mano alzada fue trabajado en  una aplicación llamada Balsamiq que nos da una visión  mas cercana al esquema 
 que queremos ver en nuestro producto final y con ella iteramos nuevamente con nuestros usuarios.
 
-![Baja Fidelidad 1](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S01_BF.png)
-
-![Baja Fidelidad 2](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S02_BF.png)
-
-![Baja Fidelidad 3](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/master/src/img/S03_BF.png)
-
+<img src="src\img\S01_BF.png" tittle= 'Baja Fidelidad 1'/>
+<img src="src\img\S02_BF.png" tittle= 'Baja Fidelidad 2'/>
+<img src="src\img\S03_BF.png" tittle= 'Baja Fidelidad 3'/>
 
 En este primer prototipo, quisimos que  nuestra pantalla de inicio mostrase el nombre de la aplicación, un menú donde se 
 muestran las opciones para la búsqueda, filtrado y orden de los datos. En Body mostraremos a los campeones en tarjetas pequeñas con solo su imagen y nombre. Para mostrar los datos individuales se hará mediante una tarjeta o ventana modal que desplegara 
@@ -191,10 +177,9 @@ las mas importantes para el resultado final, serán divididas en tareas y su tie
 *Definición de terminado*
 Al ingresar a la página el usuario podrá encontrarse con todos los campeones de la data LOL. Cumple con la guía de estilos definida. Está en el repositorio de Github. 
 
-![Vista de los Campeones ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/PageCampeones.png)
+<img src="src\img\PageCampeones.png" tittle= 'Vista de los Campeones'/>
 
-![Ordenar de la Z-A ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/ordenz-a.png)
-
+<img src="src\img\ordenz-a.png" tittle= 'Orden Alfabético'/>
 
 **Historia N° 2**
 
@@ -212,12 +197,11 @@ Al ingresar a la página el usuario puede posicionarse en el menú y seleccionar
 pantalla los campeones según la selección del filtros solicitada. Cumple con la guía de estilos definida. 
 Está en el repositorio de Github. 
 
-![Filtrado por roles ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/filtroroles.png)
+<img src="src\img\filtroroles.png" tittle= 'Filtro por roles'/>
 
-![Filtrado por dificultad ](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/Filtrodificultad.png)
+<img src="src\img\Filtrodificultad.png" tittle= 'Filtro por dificultad'/>
 
-![Filtros combinados](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/filtroscombinados.png)
-
+<img src="src\img\filtroscombinados.png" tittle= 'Filtros combinados'/>
 
 **Historia N° 3**
 
@@ -231,9 +215,9 @@ Está en el repositorio de Github.
 - Desarrollo del HTML, CSS responsivo  
 
 **Definición de terminado**
-Al ingresar a la página el usuario puede posicionarse en el campo de búsqueda e introducir el nombre del campeón, se realiza la búsqueda y se desplegara en pantalla con el campeones solicitado. Cumple con la guía de estilos definida. Está en el repositorio de Github.
+Al ingresar a la página el usuario puede posicionarse en el campo de búsqueda e introducir el nombre del campeón, se realiza la búsqueda y se desplegara en pantalla con el campeón solicitado. Cumple con la guía de estilos definida. Está en el repositorio de Github.
 
-![Filtros combinados](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/cartadelcampeon.png)
+<img src="src\img\cartadelcampeon.png" tittle= 'Vista del Campeón'/>
 
 
 #### TESTEO DE USABILIDAD
@@ -244,8 +228,8 @@ El medio remoto nos limita un poco poder apreciar el seguimiento ocular y determ
 
 Para los test de Usabilidad se preparo un Scrip a fin de que cualquier miembro del equipo lo aplicara a los ususarios ya que la disponibilidad Horaria de los mismo era variable. 
 
-[Link del Modelo del Test de usabilidad](https://github.com/AlgrisMarquez/SCL014-data-lovers/blob/testalreadme/src/img/Modelo%20test%20usabilidad.pdf)
+<img src="src\img\testusabilidad.png" tittle= 'Modelo del test de usabilidad'/>
+
 
 [Video 1 Test de usabilidad](https://drive.google.com/file/d/1CQ3u5prWwAn2xiciNAikpw0YIpkPQ1NV/view?usp=sharing)
 
-Link del Proyecto: https://algrismarquez.github.io/SCL014-data-lovers/index.html

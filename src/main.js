@@ -1,5 +1,4 @@
 import datos from './data.js';
-
 let initialList = datos.allCards();
 
 
