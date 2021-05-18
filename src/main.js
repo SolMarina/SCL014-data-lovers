@@ -32,7 +32,7 @@ const dashboard = document.getElementById('dashboard');
 
 //Funcion para unificar los filtros
 function joinedFilter() {
-    
+
     let alfabeticvalue = orderlabel.innerHTML;
     let rolevalue = roleOrder.innerHTML;
     let dificultvalue = dificultlabel.innerHTML;
@@ -40,7 +40,7 @@ function joinedFilter() {
     let alfabeticlist = datos.sortAlfabeticaly(initialList, alfabeticvalue);
 
     let rolelist = datos.filterbyRole(alfabeticlist, rolevalue);
-    
+
     let dificultList = datos.filterbyDificult(rolelist, dificultvalue);
 
     fillDashboard(dificultList);
@@ -138,7 +138,7 @@ function dificultfilterEasy() {
 
 //Funcion para limpiar el Dashboard
 function clearDashboard() {
-    
+
     while (dashboard.firstChild) {
         dashboard.removeChild(dashboard.firstChild);
     }
@@ -152,7 +152,7 @@ function fillDashboard(desiredList) {
         let box = document.createElement('a');
         box.className = 'tarjeta';
         box.id = element.name;
-        box.href = 'vista.html?'+element.name;  
+        box.href = 'vista.html?' + element.name;
 
         let img = document.createElement('img');
         img.src = element.image;
